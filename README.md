@@ -38,11 +38,11 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/abhijeet_ist" target="blank">      <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="abhijeet_ist" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/abhijeet kumar" target="blank">      <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="abhijeet kumar" height="30" width="40" /></a>
-<a href="https://instagram.com/abhijeet.ist" target="blank">      <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="abhijeet.ist" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/@kumarabhijeet411" target="blank">      <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="@kumarabhijeet411" height="30" width="40" /></a>
-<a href="https://auth.geeksforgeeks.org/user/abhijeet_ist" target="blank">      <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="abhijeet_ist" height="30" width="40" /></a>
+<a href="https://twitter.com/abhijeet_ist" target="_blank">      <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="abhijeet_ist" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/abhijeet kumar" target="_blank">      <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="abhijeet kumar" height="30" width="40" /></a>
+<a href="https://instagram.com/abhijeet.ist" target="_blank">      <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="abhijeet.ist" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/@kumarabhijeet411" target="_blank">      <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="@kumarabhijeet411" height="30" width="40" /></a>
+<a href="https://auth.geeksforgeeks.org/user/abhijeet_ist" target="_blank">      <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="abhijeet_ist" height="30" width="40" /></a>
 </p><br><br>
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Abhijeet-ist&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=true&order=2" height="150" alt="languages graph"  />
