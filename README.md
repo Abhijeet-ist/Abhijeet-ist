@@ -7,13 +7,13 @@
   
   <img src="https://github-profile-trophy.vercel.app?username=Abhijeet-ist&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=true&order=4" height="150" alt="trophy graph"  />
 </div>
- 🌱 I’m currently learning **Advanced Python, C++**
+ 🌱 I’m currently learning Advanced Python, C++
 <br><br>
- 💬 Ask me about **JavaScript**
+ 💬 Ask me about JavaScript
 <br><br>
- 📫 How to reach me **kumarabhijeet4132@gmail.com**
+ 📫 How to reach me kumarabhijeet4132@gmail.com
 <br><br>
- ⚡ Fun fact **Code and Caffein 🍵!!**
+ ⚡ Fun fact Code and Caffein 🍵!!
 
 
 ###
