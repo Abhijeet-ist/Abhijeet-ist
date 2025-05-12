@@ -2,15 +2,14 @@
 <!--- -- Custom Designed Banner ---------------------------------------------------------------------------------------------------------------------------- -->
 <!--- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/9be4d344-6782-461a-b5a6-32a07bf7b34e" width="1600" height="480" alt="animated hello">
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/9be4d344-6782-461a-b5a6-32a07bf7b34e" width="1600" alt="animated hello">
 
 
 <!--- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!--- -- Visitor Badge + Links ----------------------------------------------------------------------------------------------------------------------------- -->
 <!--- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 
-<br>
-<br>
+  
 <div align="center">
   <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FAbhijeet-Ist%2FAbhijeet-Ist&label=VISITORS&labelColor=%23000&countColor=%230A0209" />
     <br><br>
@@ -22,12 +21,41 @@
 <br>
 
 <h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, I'm Abhijeet Kumar</h1>
-<h3 align="center">Passionate Developer | Problem Solver | Tech Enthusiast</h3>
+<!-- <h3 align="center">Passionate Developer | Problem Solver | Tech Enthusiast</h3> -->
 <p align="center">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Computer+Science+Student;Web+Developer;AI/ML+Enthusiast;Always+Learning" alt="Typing SVG" />
 </p>
 
-<div align="center">
+<!-- About ME -->
+
+### <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/4503d891-510a-4ebd-94c4-ef8958a2e8d4" width="20"> About Me
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
+<div class="about-main" style="display: flex;">
+    <div align="left" style="display: flex; margin: 0px 70px 0px 15px; box-shadow: 10px 10px 13px -3px rgba(255,255,255,0.5);" class="about-left"><br><br><br><br>
+        <img align="left" src="https://user-images.githubusercontent.com/74038190/213910581-f13b98b0-6551-4723-9df1-1f3e2a2276f3.jpg" height="300" width="250">
+    </div>
+    
+
+```markdown
+🎓 Crushing that B.Tech in Computer Science like a boss
+👨‍💻 Code is my caffeine - I breathe algorithms and dream in binary!
+🔎 Where my heart beats: Development & Breaking into systems (legally, ofc)
+🔭 Building backend systems so robust they survive apocalypses
+🌱 Currently juggling DevOps chaos & Next.js wizardry
+🌟 Weapons of choice: Java ☕ & TypeScript 🔷
+💼 Hit me up for collab on mind-blowing web projects that'll melt faces!
+🚩 If life gives you bugs, deploy a hotfix! Let's break the internet (in a good way)!
+🐧 I use Kali btw... *adjusts hipster glasses*
+🎧 My brain has a permanent soundtrack running 24/7
+💬 Ask me about: JavaScript, Python, C++
+```
+
+  </div>
+</div>
+
+<br>
+
+<!-- <div align="center">
     <p>
         I'm a passionate developer on a mission to create innovative solutions to real-world problems. My expertise lies in web development with a strong focus on JavaScript and modern frameworks. Currently advancing my knowledge in Computer Science, I'm dedicated to writing clean, efficient code that makes a difference.
     </p>
@@ -38,7 +66,7 @@
         When not immersed in code, I'm exploring emerging technologies, contributing to open-source projects, or sharing insights with the developer community. I firmly believe in the power of continuous learning and creating applications that positively impact lives.
     </p>
     <p><i>💡 Open to exciting opportunities and meaningful collaborations — let's build something amazing together!</i></p>
-</div>
+</div> -->
 <br>
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 <br>
