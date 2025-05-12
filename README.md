@@ -68,6 +68,7 @@
     <p><i>💡 Open to exciting opportunities and meaningful collaborations — let's build something amazing together!</i></p>
 </div> -->
 <br>
+<br>
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 <br>
 <br>
@@ -86,9 +87,25 @@
     <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Abhijeet-Ist&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=6&theme=tokyonight&hide_border=false&order=2&custom_title=Languages" height="165" alt="Languages Graph"  />
 </div>
 <br>
- 🌱 I’m currently learning <b>Advanced Python, C++</b>
+<br>
+
+### 🏆 GitHub Trophies
+<br>
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
+<br>
+<br>
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Abhijeet-Ist&theme=radical&no-frame=false&no-bg=true&margin-w=4" />
+</div>
+
+<br>
+
+
+
+<br>
+ 🌱 I’m currently learning <b>Advanced Python, C++, and DevOps</b>
 <br><br>
-💬 Ask me about <b>JavaScript</b>
+💬 Ask me about <b>JavaScript, TypeScript</b>
 <br><br>
 📫 How to reach me <a href="kumarabhijeet4132@gmail.com"><b>kumarabhijeet4132@gmail.com</b></a>
 <br><br>
