@@ -71,16 +71,21 @@
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 <br>
 <br>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhijeet-Ist&bg_color=161b22&color=ffffff&line=d5d5d5&point=a76c6c&area=true&hide_border=true&hide_title=true" />
+
+<!-- GitHub Stats -->
+### <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="20"> GitHub Stats
+<br>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhijeet-Ist&bg_color=161b22&color=ffffff&line=d5d5d5&point=a76c6c&area=true&hide_border=true&hide_title=true" width="9000" />
 <br>
 <br>
-<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
+<!-- <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" /> -->
 
-
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Abhijeet-ist&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=10&theme=dracula&hide_border=true" height="150" alt="languages graph"  />
-<img align="right" height="150" src="https://cdn.dribbble.com/users/517658/screenshots/1480070/media/19e98d63a97dd22131cabf3379e50326.gif"  />
-</div><br>
+<div align="center" style="display: flex; gap: 30px; align-items: center">
+<!--   <img src="https://github-readme-stats.vercel.app/api?username=learnershakil&hide_title=true&hide_border=false&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" height="105" alt="Status Graph" /> -->
+  <img src="https://streak-stats.demolab.com?user=Abhijeet-Ist&locale=en&mode=daily&theme=tokyonight&hide_border=false&border_radius=5&order=3" height="165" alt="Streak Graph"  />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Abhijeet-Ist&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=6&theme=tokyonight&hide_border=false&order=2&custom_title=Languages" height="165" alt="Languages Graph"  />
+</div>
+<br>
  🌱 I’m currently learning <b>Advanced Python, C++</b>
 <br><br>
 💬 Ask me about <b>JavaScript</b>
