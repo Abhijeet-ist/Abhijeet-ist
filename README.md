@@ -2,7 +2,7 @@
 <!--- -- Custom Designed Banner ---------------------------------------------------------------------------------------------------------------------------- -->
 <!--- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 
-![Banner GitHub](https://github.com/Anmol-Baranwal/Anmol-Baranwal/assets/74038190/fe054170-c69a-41d2-8e73-f7f239ebc046)
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/9be4d344-6782-461a-b5a6-32a07bf7b34e" width="1600" height="700" alt="animated hello">
 
 
 <!--- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
@@ -23,7 +23,7 @@
 <h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, I'm Abhijeet Kumar</h1>
 <h3 align="center">Passionate Developer | Problem Solver | Tech Enthusiast</h3>
 <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Computer+Science+Student;Web+Developer;JavaScript+Enthusiast;Always+Learning" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Computer+Science+Student;Web+Developer;AI/ML+Enthusiast;Always+Learning" alt="Typing SVG" />
 </p>
 
 <div align="center">
