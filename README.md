@@ -1,8 +1,53 @@
-<h2 align="center">Hello World 👋!  I'm Abhijeet Kumar</h2>
-<h3 align="center">A passionate developer from India.</h3>
+<!--- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--- -- Custom Designed Banner ---------------------------------------------------------------------------------------------------------------------------- -->
+<!--- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+![Banner GitHub](https://github.com/Anmol-Baranwal/Anmol-Baranwal/assets/74038190/fe054170-c69a-41d2-8e73-f7f239ebc046)
+
+
+<!--- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--- -- Visitor Badge + Links ----------------------------------------------------------------------------------------------------------------------------- -->
+<!--- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+  
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app?username=Abhijeet-ist&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=true&order=4" height="150" alt="trophy graph"  />
-</div><br>
+  <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FAbhijeet-Ist%2FAbhijeet-Ist&label=VISITORS&labelColor=%23000&countColor=%230A0209" />
+    <br><br>
+  <a href="https://www.linkedin.com/in/abhijeet-kr28/"><img src="https://img.shields.io/badge/LinkedIn-d5d5d5?style=for-the-badge&logo=linkedin&logoColor=0A0209" alt="LinkedIn profile of Abhijeet Kumar" /></a>
+<a href="https://instagram.com/abhijeet.ist"><img src="https://img.shields.io/badge/instagram-d5d5d5?style=for-the-badge&logo=instagram&logoColor=0A0209" alt="Instagram profile of Abhijeet" /></a>
+<a href="mailto:kumarabhijeet4132@gmail.com"><img src="https://img.shields.io/badge/Gmail-d5d5d5?style=for-the-badge&logo=gmail&logoColor=0A0209" alt="email of Anmol i.e.   hi@anmolbaranwal.com" /></a>
+  <a href="https://x.com/Abhijeet_Ist"><img src="https://img.shields.io/badge/Twitter-d5d5d5?style=for-the-badge&logo=x&logoColor=0A0209" alt="Twitter profile of Abhijeet" ></a>
+</div>
+<br>
+
+<h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, I'm Abhijeet Kumar</h1>
+<h3 align="center">Passionate Developer | Problem Solver | Tech Enthusiast</h3>
+<p align="center">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Computer+Science+Student;Web+Developer;JavaScript+Enthusiast;Always+Learning" alt="Typing SVG" />
+</p>
+
+<div align="center">
+    <p>
+        I'm a passionate developer on a mission to create innovative solutions to real-world problems. My expertise lies in web development with a strong focus on JavaScript and modern frameworks. Currently advancing my knowledge in Computer Science, I'm dedicated to writing clean, efficient code that makes a difference.
+    </p>
+    <p>
+        Throughout my tech journey, I've collaborated on diverse projects ranging from responsive web applications to data analysis scripts. I'm actively expanding my skills in Python and C++ to broaden my technical versatility and tackle more complex challenges.
+    </p>
+    <p>
+        When not immersed in code, I'm exploring emerging technologies, contributing to open-source projects, or sharing insights with the developer community. I firmly believe in the power of continuous learning and creating applications that positively impact lives.
+    </p>
+    <p><i>💡 Open to exciting opportunities and meaningful collaborations — let's build something amazing together!</i></p>
+</div>
+<br>
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
+<br>
+<br>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhijeet-Ist&bg_color=161b22&color=ffffff&line=d5d5d5&point=a76c6c&area=true&hide_border=true&hide_title=true" />
+<br>
+<br>
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
+
+
 <div align="left">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Abhijeet-ist&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=10&theme=dracula&hide_border=true" height="150" alt="languages graph"  />
 <img align="right" height="150" src="https://cdn.dribbble.com/users/517658/screenshots/1480070/media/19e98d63a97dd22131cabf3379e50326.gif"  />
