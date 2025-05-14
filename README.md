@@ -86,6 +86,7 @@
   <img src="https://streak-stats.demolab.com?user=Abhijeet-Ist&locale=en&mode=daily&theme=tokyonight&hide_border=false&border_radius=5&order=3" height="165" alt="Streak Graph"  />
     <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Abhijeet-Ist&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=6&theme=tokyonight&hide_border=false&order=2&custom_title=Languages" height="165" alt="Languages Graph"  />
 </div>
+<figure><embed src="https://wakatime.com/share/@94c7ab01-166b-43f2-8861-fb6f7a932dc8/092afd3b-d44f-41ac-96b6-5fee8ffb794b.svg"></embed></figure>
 <br>
 <br>
 
