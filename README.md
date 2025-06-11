@@ -130,6 +130,11 @@ export class Developer {
   <h3>💻 WORKSPACE</h3>
   <a href="#"><img src="https://img.shields.io/badge/Windows_11-0078D6?style=for-the-badge&logo=windows&logoColor=white" height="25" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" height="25" /></a>
+
+  <a href="#"><img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="25" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" height="25" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/NixOS-5277C3?style=for-the-badge&logo=nixos&logoColor=white" height="25" /></a>
+
 <div align="center">
   <h2>🔄 Development Workflow</h2>
   <div>
@@ -149,11 +154,6 @@ export class Developer {
   <a href="#">
     <img src="https://img.shields.io/badge/🔥_My_Current_Focus-building_scalable_systems-9cf?style=for-the-badge&labelColor=black&color=6e4aff" alt="Current Focus" />
   </a>
-</div>
-  <a href="#"><img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="25" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" height="25" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/NixOS-5277C3?style=for-the-badge&logo=nixos&logoColor=white" height="25" /></a>
-</div>
 
 <br>
 
