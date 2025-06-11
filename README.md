@@ -150,12 +150,6 @@ export class Developer {
 
 <br>
 
-<div align="center">
-  <a href="#">
-    <img src="https://img.shields.io/badge/🔥_My_Current_Focus-building_scalable_systems-9cf?style=for-the-badge&labelColor=black&color=6e4aff" alt="Current Focus" />
-  </a>
-
-<br>
 
 <!-- Futuristic Skills Matrix -->
 <div align="center">
@@ -325,6 +319,13 @@ export class Developer {
   </a>
 </div>
 
+<br>
+
+<div align="center">
+  <a href="#">
+    <img src="https://img.shields.io/badge/🔥_My_Current_Focus-building_scalable_systems-9cf?style=for-the-badge&labelColor=black&color=6e4aff" alt="Current Focus" />
+  </a>
+</div>
 <br>
 
 <div align="center">
