@@ -33,13 +33,14 @@
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhijeet-ist&theme=react-dark&hide_border=true&area=true" width="95%" alt="Contribution Graph">
   <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Abhijeet-ist&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="170" />
+    <img src="https://nirzak-streak-stats.vercel.app/?user=Abhijeet-ist&locale=en&mode=daily&theme=tokyonight&hide_border=true&border_radius=5&order=3&card_height=235" alt="Streak Stats" width="100%">
     <img src="https://github-readme-stats.vercel.app/api?username=Abhijeet-ist&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="170" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhijeet-ist&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170" />
   </div>
   <!-- <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhijeet-ist&theme=react-dark&hide_border=true&area=true" width="95%" alt="Contribution Graph"> -->
 </div>
-
+ <!-- <a href="https://nirzak-streak-stats.vercel.app/?user=Abhijeet-ist&locale=en&mode=daily&theme=tokyonight&hide_border=true&border_radius=5&order=3&card_height=235"> -->
+  
 <br>
 
 ## <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/4503d891-510a-4ebd-94c4-ef8958a2e8d4" width="35px">&nbsp; About Me
