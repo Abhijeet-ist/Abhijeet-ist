@@ -66,7 +66,7 @@ export class Developer {
 <!-- if you want to add more trophy inc the column size -->
 <br>
 <div align="center">
-  <img src="https://nirzak-streak-stats.vercel.app?user=Abhijeet-ist&theme=tokyonight&hide_border=true" alt="Streak Stats" width="48%" height="170" />
+  <img src="https://nirzak-streak-stats.vercel.app?user=Abhijeet-ist&theme=tokyonight&hide_border=true" alt="" width="48%" height="170" />
   <img src="https://github-readme-stats.vercel.app/api?username=Abhijeet-ist&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" height="170" />
   <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhijeet-ist&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170" width="48%" /> -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhijeet-ist&theme=react-dark&hide_border=true&area=true" width="90%" alt="Contribution Graph">
