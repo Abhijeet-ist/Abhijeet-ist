@@ -1,0 +1,17 @@
+name: GitHub Metrics
+
+on:
+  schedule: 
+    - cron: "* * * * *"  # update every 1 minute
+  workflow_dispatch:
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          template: classic
+          base: header, activity, community, repositories
+          config_timezone: Asia/Kolkata
