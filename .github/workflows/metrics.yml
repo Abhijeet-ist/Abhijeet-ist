@@ -15,7 +15,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: Abhijeet-ist
-          template: classic
+          template: flat
           base: header, activity, community, repositories
           filename: github-metrics.svg
           output_action: commit
@@ -26,5 +26,5 @@ jobs:
           plugin_languages: yes
           plugin_languages_ignored: html, css
           plugin_languages_threshold: 1%
-          plugin_stars: yes
+          plugin_stars: false
           plugin_stars_limit: 5
