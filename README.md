@@ -80,6 +80,12 @@ export class Developer {
     </div>
   </div>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhijeet-ist&theme=react-dark&hide_border=true&area=true" width="95%" alt="Contribution Graph">
+  
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dist/cosmic-contribution-art.png">
+    <source media="(prefers-color-scheme: light)" srcset="dist/cosmic-contribution-art.png">
+    <img alt="Abhijeet's Cosmic Contribution Art" src="dist/cosmic-contribution-art.png" width="95%" style="margin-top: 20px;">
+  </picture>
 </div>
  <!-- <a href="https://nirzak-streak-stats.vercel.app/?user=Abhijeet-ist&locale=en&mode=daily&theme=tokyonight&hide_border=true&border_radius=5&order=3&card_height=235"> -->
   
@@ -362,7 +368,12 @@ export class Developer {
     <span style="background: linear-gradient(45deg, #667eea, #764ba2, #f093fb); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">My Cosmic Contribution Galaxy</span>
     <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/raw/master/Emojis/Travel%20and%20places/Ringed%20Planet.png" width="35" height="35" />
   </h2>
-  <img src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/cosmic-contribution-art.png" alt="Cosmic Contribution Art" width="90%" />
+  <!-- Updated with both image sources to ensure one works -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/cosmic-contribution-art.png" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/cosmic-contribution-art.png" />
+    <img alt="Cosmic Contribution Art" src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/cosmic-contribution-art.png" width="90%" />
+  </picture>
 </div>
 
 <div align="center">
