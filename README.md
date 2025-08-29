@@ -350,6 +350,16 @@ export class Developer {
   </picture>
 </div>
 
+<!-- Cosmic Contribution Art -->
+<div align="center">
+  <h2>
+    <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/raw/master/Emojis/Travel%20and%20places/Milky%20Way.png" width="35" height="35" />
+    <span style="background: linear-gradient(45deg, #667eea, #764ba2, #f093fb); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">My Cosmic Contribution Galaxy</span>
+    <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/raw/master/Emojis/Travel%20and%20places/Ringed%20Planet.png" width="35" height="35" />
+  </h2>
+  <img src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/cosmic-contribution-art.png" alt="Cosmic Contribution Art" width="90%" />
+</div>
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=fadeIn" width="100%"/>
 </div>
