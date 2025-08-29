@@ -5,7 +5,7 @@
 <div align="center">
   <h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, I'm Abhijeet Kumar</h1>
   
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=30&duration=3000&pause=1000&color=4F94EF&center=true&vCenter=true&random=false&width=600&height=70&lines=Computer+Science+Student;Web+Developer;AI%2FML+Enthusiast;Cybersecurity+Explorer)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&duration=2000&pause=500&color=FF6B6B&center=true&vCenter=true&random=false&width=600&height=70&lines=Full+Stack+Developer;AI%2FML+Enthusiast;Cybersecurity+Explorer;Problem+Solver)](https://git.io/typing-svg)
   
   <div>
     <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FAbhijeet-Ist%2FAbhijeet-Ist&label=VISITORS&labelColor=%23000&countColor=%230A0209" alt="Profile Views" />
@@ -57,11 +57,11 @@ export class Developer {
 </div>
 <br>
 <div align="left">
-  <h2>📊 GitHub Stats</h2>
-  <br>
-  <a href="https://github-trophies.vercel.app/?username=Abhijeet-ist" target="_blank">
-    <img src="https://github-trophies.vercel.app/?username=Abhijeet-ist&theme=monokai&no-frame=true&no-bg=true&margin-w=6&margin-h=6&row=1&column=9" width="100%">
-  </a>
+  <h2><img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35px">&nbsp; GitHub Stats</h2>
+    <br>
+    <a href="https://github-trophies.vercel.app/?username=Abhijeet-ist" target="_blank">
+      <img src="https://github-trophies.vercel.app/?username=Abhijeet-ist&theme=monokai&no-frame=true&no-bg=true&margin-w=6&margin-h=6&row=1&column=9" width="100%">
+    </a>
 </div>
 <!-- if you want to add more trophy inc the column size -->
 <br>
@@ -87,7 +87,7 @@ export class Developer {
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="35px">&nbsp; Technologies & Tools
 
 <div align="center">
-  <h3>⚡ PROGRAMMING LANGUAGES</h3>
+  <!-- <h3>⚡ PROGRAMMING LANGUAGES</h3> -->
   <a href="#"><img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" height="30" /></a>
@@ -99,8 +99,8 @@ export class Developer {
   <a href="#"><img src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" height="30" /></a>
-  
-  <h3>🚀 FRAMEWORKS & LIBRARIES</h3>
+  <a href="#"><img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white" height="30" /></a>
+  <!-- <h3>🚀 FRAMEWORKS & LIBRARIES</h3> -->
   <a href="#"><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" height="30" /></a>
@@ -110,8 +110,9 @@ export class Developer {
   <a href="#"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" height="30" /></a>
-  
-  <h3>🛠️ TOOLS & PLATFORMS</h3>
+  <a href="#"><img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" height="30" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" height="30" /></a>
+  <!-- <h3>🛠️ TOOLS & PLATFORMS</h3> -->
   <a href="#"><img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/GitKraken-179287?style=for-the-badge&logo=gitkraken&logoColor=white" height="30" /></a>
@@ -122,8 +123,7 @@ export class Developer {
   <a href="#"><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" height="30" /></a>
-  
-  <h3>💻 IDEs & TEXT EDITORS</h3>
+  <!-- <h3>💻 IDEs & TEXT EDITORS</h3> -->
   <a href="#"><img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/CLion-000000?style=for-the-badge&logo=clion&logoColor=white" height="30" /></a>
@@ -133,24 +133,25 @@ export class Developer {
   <a href="#"><img src="https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white" height="30" /></a>
-  
-  <h3>🗄️ DATABASES</h3>
+  <a href="#"><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" height="30" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" height="30" /></a>
+  <!-- <h3>🗄️ DATABASES</h3> -->
   <a href="#"><img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" height="30" /></a>
-  
-  <h3>💻 WORKSPACE</h3>
+  <a href="#"><img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" height="30" /></a>
+  <!-- <h3>💻 WORKSPACE</h3> -->
   <a href="#"><img src="https://img.shields.io/badge/Windows_11-0078D6?style=for-the-badge&logo=windows&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" height="30" /></a>
-
   <a href="#"><img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/NixOS-5277C3?style=for-the-badge&logo=nixos&logoColor=white" height="30" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=macos&logoColor=white" height="30" /></a>
 
 <div align="center">
-  <h2>🔄 Development Workflow</h2>
+  <h2>Development Workflow</h2>
   <div>
     <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50" height="50" alt="VSCode" /></a>
     <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" height="50" alt="Git" /></a>
@@ -167,7 +168,7 @@ export class Developer {
 
 <!-- Futuristic Skills Matrix -->
 <div align="center">
-  <h2>🔮 SKILL MATRIX</h2>
+  <h2>SKILL MATRIX</h2>
   
   <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
     <!-- First Row -->
@@ -221,7 +222,7 @@ export class Developer {
           </td>
           <td align="center" width="100">
             <a href="#">
-              <img src="https://techstack-generator.vercel.app/nodejs-icon.svg" alt="Node.js" width="65" height="65" />
+              <img src="https://img.icons8.com/?size=100&id=54087&format=png&color=000000" alt="Node.js" width="65" height="65" />
             </a>
             <br>Node.js
           </td>
@@ -260,7 +261,7 @@ export class Developer {
           </td>
           <td align="center" width="100">
             <a href="#">
-              <img src="https://techstack-generator.vercel.app/mongodb-icon.svg" alt="MongoDB" width="65" height="65" />
+              <img src="https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000" alt="MongoDB" width="65" height="65" />
             </a>
             <br>MongoDB
           </td>
@@ -277,8 +278,8 @@ export class Developer {
 </div>
 
 <!-- Animated Skill Bars -->
-<div align="center">
-  <h3>💻 Proficiency Level</h3>
+<!-- <div align="center"> -->
+  <h3>Proficiency Level</h3>
 </div>
 
 <div align="center">
@@ -313,7 +314,7 @@ export class Developer {
 
 <br>
 
-## <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width="45px">&nbsp; Let's Connect!
+## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDlvanNsbnRuOXE3d2ZodmNwMnI1ejBqcTZ3ZzQ2bjhhbDlwZG9hcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">&nbsp; Let's Connect!
 
 <div align="center">
   <a href="https://twitter.com/abhijeet_ist" target="_blank">
