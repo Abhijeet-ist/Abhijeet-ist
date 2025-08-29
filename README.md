@@ -21,7 +21,7 @@
 <!-- GitHub Metrics -->
 <div align="center">
 <h1>GitHub Metrics</h1>
-  <img src="https://metrics.lecoq.io/Abhijeet-ist?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&isocalendar=1&languages=1&stars=1&habits=1&achievements=1&notable=1&introduction=1&lines=1&isocalendar.duration=half-year&languages.limit=8&languages.threshold=0%25&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&stars.limit=4&habits.from=200&habits.days=14&habits.facts=true&habits.charts=false&habits.charts.type=classic&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&notable.from=organization&notable.repositories=false&notable.indepth=false&notable.types=commit&introduction.title=true&config.timezone=Asia%2FKolkata" alt="Metrics" width="100%">
+  <img src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/main/github-metrics.svg" alt="Metrics" width="100%">
 </div>
 
 <br>
