@@ -24,8 +24,7 @@
 ## <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/4503d891-510a-4ebd-94c4-ef8958a2e8d4" width="35px">&nbsp; About Me
 
 <div style="display: flex;">
-  <img align="right" width="250" src="https://user-images.githubusercontent.com/74038190/213910581-f13b98b0-6551-4723-9df1-1f3e2a2276f3.jpg" alt="Coding Animation" style="margin-left: 40px; border-radius: 10px; box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);">
-
+  <img align="left" width="250" src="https://user-images.githubusercontent.com/74038190/213910581-f13b98b0-6551-4723-9df1-1f3e2a2276f3.jpg" alt="Coding Animation" style="margin-left: 40px; border-radius: 10px; box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);">
   <div>
   
 ```typescript
