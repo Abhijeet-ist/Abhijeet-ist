@@ -21,7 +21,7 @@
 <!-- GitHub Metrics -->
 <div align="center">
 <h1>GitHub Metrics</h1>
-  <img src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/main/github-metrics.svg" alt="Metrics" width="100%">
+  <img src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/main/github-metrics.svg" alt="Metrics" width="95%" height="auto" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); margin: 10px 0;">
 </div>
 
 <br>
