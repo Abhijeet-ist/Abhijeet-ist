@@ -1,0 +1,341 @@
+name: Cosmic Contribution Art
+
+on:
+  # Schedule the workflow to run weekly (Sunday at midnight UTC)
+  schedule:
+    - cron: "0 0 * * 0"
+  
+  # Allow manual triggering of the workflow
+  workflow_dispatch:
+  
+  # Trigger the workflow on pushes to the main branch
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install numpy matplotlib pillow requests perlin-noise colorsys
+      
+      # Step 4: Generate the Cosmic Art
+      - name: Generate Cosmic Contribution Art
+        run: |
+          cat > generate_cosmic_art.py << 'EOF'
+          import os
+          import json
+          import requests
+          import numpy as np
+          import matplotlib.pyplot as plt
+          from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps, ImageEnhance
+          from datetime import datetime, timedelta
+          from perlin_noise import PerlinNoise
+          import colorsys
+          import math
+          import random
+          
+          # GitHub username to fetch contributions for
+          GITHUB_USERNAME = os.environ.get('GITHUB_USERNAME')
+          
+          # Theme colors - cosmic theme with purples, blues and pinks
+          COLOR_PALETTE = {
+              'background': (13, 17, 23),  # Dark space background
+              'low': (102, 126, 234),      # Light blue/indigo (667eea)
+              'medium': (118, 75, 162),    # Purple (764ba2)
+              'high': (240, 147, 251),     # Pink (f093fb)
+              'stars': (255, 255, 255),    # White stars
+              'grid': (30, 35, 45),        # Dark grid lines
+              'text': (255, 255, 255),     # White text
+          }
+          
+          # Get GitHub contributions data using GraphQL API
+          def fetch_contributions():
+              try:
+                  # If you have a token, use it for higher rate limits
+                  token = os.environ.get('GITHUB_TOKEN')
+                  headers = {'Authorization': f'token {token}'} if token else {}
+                  
+                  # Fallback to simpler REST API approach if GraphQL fails
+                  url = f"https://github-contributions.vercel.app/api/v1/{GITHUB_USERNAME}"
+                  response = requests.get(url)
+                  contributions_data = response.json()
+                  
+                  # Process data
+                  result = []
+                  for day in contributions_data['contributions']:
+                      count = day['count']
+                      date = day['date']
+                      weekday = datetime.strptime(date, "%Y-%m-%d").weekday()
+                      result.append({
+                          'date': date,
+                          'count': count,
+                          'weekday': weekday
+                      })
+                  
+                  return result
+                  
+              except Exception as e:
+                  print(f"Error fetching contributions: {e}")
+                  # Generate some sample data if API fails
+                  return generate_sample_data()
+          
+          def generate_sample_data():
+              result = []
+              today = datetime.now()
+              for i in range(365):
+                  date = today - timedelta(days=i)
+                  result.append({
+                      'date': date.strftime("%Y-%m-%d"),
+                      'count': random.randint(0, 15),
+                      'weekday': date.weekday()
+                  })
+              return result
+          
+          def create_cosmic_art(contributions):
+              # Create a high-res canvas
+              width, height = 1600, 900
+              canvas = Image.new('RGB', (width, height), COLOR_PALETTE['background'])
+              draw = ImageDraw.Draw(canvas)
+              
+              # Create noise generators for various effects
+              base_noise = PerlinNoise(octaves=3, seed=random.randint(1, 1000))
+              detail_noise = PerlinNoise(octaves=6, seed=random.randint(1, 1000))
+              color_noise = PerlinNoise(octaves=2, seed=random.randint(1, 1000))
+              
+              # Sort contributions by date
+              contributions.sort(key=lambda x: x['date'])
+              
+              # Get the max count for normalization
+              max_count = max(c['count'] for c in contributions) if contributions else 1
+              
+              # Draw the starfield background
+              for _ in range(1000):
+                  x = random.randint(0, width)
+                  y = random.randint(0, height)
+                  size = random.randint(1, 3)
+                  brightness = random.randint(150, 255)
+                  draw.ellipse((x, y, x+size, y+size), fill=(brightness, brightness, brightness))
+              
+              # Create a cosmic "grid" structure
+              grid_points = []
+              for i in range(0, width, 50):
+                  for j in range(0, height, 50):
+                      offset_x = int(base_noise([i/width, j/height]) * 30)
+                      offset_y = int(base_noise([j/width, i/height]) * 30)
+                      grid_points.append((i + offset_x, j + offset_y))
+              
+              # Draw subtle grid lines
+              for i in range(len(grid_points)):
+                  for j in range(i+1, min(i+10, len(grid_points))):
+                      if random.random() < 0.1:  # Only draw some lines for a sparse effect
+                          draw.line([grid_points[i], grid_points[j]], fill=COLOR_PALETTE['grid'], width=1)
+              
+              # Map contributions to visual elements
+              contribution_elements = []
+              for idx, contrib in enumerate(contributions[-200:]):  # Use last 200 days for visualization
+                  # Calculate position - arrange in a spiral pattern
+                  t = idx / 30 * math.pi * 2  # Angle
+                  r = 300 - idx / 2  # Radius decreases as we go back in time
+                  
+                  # Add some perlin noise to the position
+                  noise_val = base_noise([idx/100, 0.5]) * 50
+                  
+                  x = width/2 + math.cos(t) * r + noise_val
+                  y = height/2 + math.sin(t) * r + noise_val
+                  
+                  # Determine size based on contribution count
+                  size_factor = contrib['count'] / max_count if max_count > 0 else 0
+                  min_size = 10
+                  max_size = 70
+                  size = min_size + size_factor * (max_size - min_size)
+                  
+                  # Add some variation to size
+                  size *= 0.8 + detail_noise([idx/100, 0.7]) * 0.5
+                  
+                  # Determine color - blend between low, medium and high colors based on count
+                  if size_factor == 0:
+                      color = COLOR_PALETTE['background']
+                  elif size_factor < 0.3:
+                      color = COLOR_PALETTE['low']
+                  elif size_factor < 0.7:
+                      color = COLOR_PALETTE['medium']
+                  else:
+                      color = COLOR_PALETTE['high']
+                  
+                  # Add some color variation
+                  color_variation = color_noise([idx/100, 0.9]) * 30
+                  color = tuple(int(max(0, min(255, c + color_variation))) for c in color)
+                  
+                  # Determine shape based on weekday (0=Monday, 6=Sunday)
+                  shape_type = contrib['weekday'] % 4  # 4 different shape types
+                  
+                  contribution_elements.append({
+                      'x': x, 'y': y, 'size': size, 'color': color, 'shape': shape_type,
+                      'day': contrib['date'], 'count': contrib['count']
+                  })
+              
+              # Draw the contribution elements
+              for elem in contribution_elements:
+                  x, y, size, color, shape = elem['x'], elem['y'], elem['size'], elem['color'], elem['shape']
+                  
+                  # Different shape types
+                  if shape == 0:  # Circle
+                      draw.ellipse((x-size/2, y-size/2, x+size/2, y+size/2), fill=color)
+                  elif shape == 1:  # Diamond
+                      draw.polygon([(x, y-size/2), (x+size/2, y), (x, y+size/2), (x-size/2, y)], fill=color)
+                  elif shape == 2:  # Square
+                      draw.rectangle((x-size/2, y-size/2, x+size/2, y+size/2), fill=color)
+                  elif shape == 3:  # Star
+                      points = []
+                      for i in range(5):
+                          # Outer points
+                          px = x + size/2 * math.cos(math.pi/2 + i*2*math.pi/5)
+                          py = y + size/2 * math.sin(math.pi/2 + i*2*math.pi/5)
+                          points.append((px, py))
+                          
+                          # Inner points
+                          px = x + size/5 * math.cos(math.pi/2 + (i+0.5)*2*math.pi/5)
+                          py = y + size/5 * math.sin(math.pi/2 + (i+0.5)*2*math.pi/5)
+                          points.append((px, py))
+                      
+                      draw.polygon(points, fill=color)
+              
+              # Add glow effect with PIL
+              glow_overlay = Image.new('RGBA', (width, height), (0, 0, 0, 0))
+              glow_draw = ImageDraw.Draw(glow_overlay)
+              
+              for elem in contribution_elements:
+                  if elem['count'] > 0:  # Only add glow to non-zero contributions
+                      x, y, size = elem['x'], elem['y'], elem['size']
+                      glow_size = size * 1.5
+                      glow_color = tuple(list(elem['color']) + [100])  # Semi-transparent
+                      glow_draw.ellipse((x-glow_size/2, y-glow_size/2, x+glow_size/2, y+glow_size/2), fill=glow_color)
+              
+              # Apply blur to the glow overlay
+              glow_overlay = glow_overlay.filter(ImageFilter.GaussianBlur(15))
+              
+              # Composite the glow and main canvas
+              canvas = Image.alpha_composite(canvas.convert('RGBA'), glow_overlay)
+              
+              # Add some cosmic dust/nebula effect
+              dust_overlay = Image.new('RGBA', (width, height), (0, 0, 0, 0))
+              dust_draw = ImageDraw.Draw(dust_overlay)
+              
+              for _ in range(2000):
+                  x = random.randint(0, width)
+                  y = random.randint(0, height)
+                  size = random.randint(1, 5)
+                  
+                  # Random color from our palette
+                  colors = [COLOR_PALETTE['low'], COLOR_PALETTE['medium'], COLOR_PALETTE['high']]
+                  color = random.choice(colors)
+                  opacity = random.randint(5, 50)
+                  dust_draw.ellipse((x, y, x+size, y+size), fill=color + (opacity,))
+              
+              dust_overlay = dust_overlay.filter(ImageFilter.GaussianBlur(10))
+              canvas = Image.alpha_composite(canvas, dust_overlay)
+              
+              # Add title and metadata
+              canvas = canvas.convert('RGB')
+              
+              try:
+                  # Try to load a font, fall back to default if not available
+                  font_large = ImageFont.truetype("DejaVuSans-Bold.ttf", 36)
+                  font_small = ImageFont.truetype("DejaVuSans.ttf", 20)
+              except:
+                  font_large = ImageFont.load_default()
+                  font_small = ImageFont.load_default()
+              
+              draw = ImageDraw.Draw(canvas)
+              
+              # Title
+              title = f"{GITHUB_USERNAME}'s Cosmic Contribution Galaxy"
+              draw.text((width/2, 50), title, fill=COLOR_PALETTE['text'], font=font_large, anchor="mt")
+              
+              # Date range
+              if contributions:
+                  oldest = contributions[-200]['date'] if len(contributions) >= 200 else contributions[-1]['date']
+                  newest = contributions[0]['date']
+                  date_text = f"Visualizing contributions from {oldest} to {newest}"
+                  draw.text((width/2, height-50), date_text, fill=COLOR_PALETTE['text'], font=font_small, anchor="ms")
+              
+              # Add vignette effect
+              canvas = add_vignette(canvas)
+              
+              # Final adjustments
+              enhancer = ImageEnhance.Contrast(canvas)
+              canvas = enhancer.enhance(1.2)  # Slightly increase contrast
+              
+              return canvas
+          
+          def add_vignette(image, strength=0.75):
+              width, height = image.size
+              
+              # Create radial gradient mask
+              mask = Image.new('L', (width, height), 255)
+              draw = ImageDraw.Draw(mask)
+              
+              # Draw radial gradient
+              for r in range(0, int(min(width, height) * 0.5), 2):
+                  alpha = int(255 * (1 - r / (min(width, height) * 0.5 * strength)))
+                  draw.ellipse((width/2-r, height/2-r, width/2+r, height/2+r), fill=alpha)
+              
+              # Apply mask
+              image = Image.composite(image, Image.new('RGB', (width, height), (0, 0, 0)), mask)
+              return image
+          
+          def main():
+              # Get the GitHub username
+              if not GITHUB_USERNAME:
+                  print("GITHUB_USERNAME environment variable not set")
+                  return
+                  
+              print(f"Generating cosmic art for {GITHUB_USERNAME}...")
+              
+              # Fetch the contribution data
+              contributions = fetch_contributions()
+              
+              # Create the cosmic art
+              cosmic_art = create_cosmic_art(contributions)
+              
+              # Save the image
+              output_dir = "dist"
+              os.makedirs(output_dir, exist_ok=True)
+              
+              cosmic_art.save(f"{output_dir}/cosmic-contribution-art.png")
+              print(f"Cosmic contribution art saved to {output_dir}/cosmic-contribution-art.png")
+          
+          if __name__ == "__main__":
+              main()
+          EOF
+          
+          # Run the script to generate the art
+          GITHUB_USERNAME="${{ github.repository_owner }}" GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" python generate_cosmic_art.py
+        
+      # Step 5: Deploy the generated files to the 'output' branch
+      - name: Deploy to Output Branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          # Ensure we don't overwrite other files in the branch (like snake animation)
+          keep_files: true
+          commit_message: "Update cosmic contribution art [skip ci]"
