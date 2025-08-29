@@ -33,6 +33,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
+          # colorsys is a built-in Python module, not a pip package
           pip install numpy matplotlib pillow requests perlin-noise
       
       # Step 4: Generate the Cosmic Art
