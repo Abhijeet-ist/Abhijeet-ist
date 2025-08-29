@@ -24,12 +24,7 @@
 ## <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/4503d891-510a-4ebd-94c4-ef8958a2e8d4" width="35px">&nbsp; About Me
 
 <div style="display: flex;">
-<<<<<<< HEAD
-  <img align="left" width="250" src="https://user-images.githubusercontent.com/74038190/213910581-f13b98b0-6551-4723-9df1-1f3e2a2276f3.jpg" alt="Coding Animation" style="margin-left: 40px; border-radius: 10px; box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);">
-=======
   <img align="left" width="350" height="350" src="https://user-images.githubusercontent.com/74038190/213910581-f13b98b0-6551-4723-9df1-1f3e2a2276f3.jpg" alt="Coding Animation" style="margin-right: 20px; border-radius: 10px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);">
-
->>>>>>> a84da933e000a645ddb1a144023e6353a14fb6e4
   <div>
   
 ```typescript
@@ -81,11 +76,11 @@ export class Developer {
   </div>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhijeet-ist&theme=react-dark&hide_border=true&area=true" width="95%" alt="Contribution Graph">
   
-  <picture>
+  <!-- <picture>
     <source media="(prefers-color-scheme: dark)" srcset="dist/cosmic-contribution-art.png">
     <source media="(prefers-color-scheme: light)" srcset="dist/cosmic-contribution-art.png">
     <img alt="Abhijeet's Cosmic Contribution Art" src="dist/cosmic-contribution-art.png" width="95%" style="margin-top: 20px;">
-  </picture>
+  </picture> -->
 </div>
  <!-- <a href="https://nirzak-streak-stats.vercel.app/?user=Abhijeet-ist&locale=en&mode=daily&theme=tokyonight&hide_border=true&border_radius=5&order=3&card_height=235"> -->
   
@@ -363,17 +358,17 @@ export class Developer {
 
 <!-- Cosmic Contribution Art -->
 <div align="center">
-  <h2>
+  <!-- <h2>
     <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/raw/master/Emojis/Travel%20and%20places/Milky%20Way.png" width="35" height="35" />
     <span style="background: linear-gradient(45deg, #667eea, #764ba2, #f093fb); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">My Cosmic Contribution Galaxy</span>
     <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/raw/master/Emojis/Travel%20and%20places/Ringed%20Planet.png" width="35" height="35" />
-  </h2>
+  </h2> -->
   <!-- Updated with both image sources to ensure one works -->
-  <picture>
+  <!-- <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/cosmic-contribution-art.png" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/cosmic-contribution-art.png" />
     <img alt="Cosmic Contribution Art" src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/cosmic-contribution-art.png" width="90%" />
-  </picture>
+  </picture> -->
 </div>
 
 <div align="center">
