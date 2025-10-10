@@ -11,7 +11,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@v3.33
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: Abhijeet-ist

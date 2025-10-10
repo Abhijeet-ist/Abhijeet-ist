@@ -1,0 +1,24 @@
+name: Commit Time Stats
+on:
+  schedule:
+    - cron: '0 0 * * 0' # weekly update
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Generate commit time report
+        run: |
+          npx commit-time-analyzer --username your-github-username > commit_stats.txt
+      - name: Update README
+        run: |
+          sed -i '/<!--START_SECTION:commits-->/r commit_stats.txt' README.md
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "update commit stats" || echo "no changes"
+          git push
