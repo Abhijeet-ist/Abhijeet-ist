@@ -380,5 +380,5 @@ export class Developer {
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=fadeIn" width="100%"/>
 </div>
 
-<!--START_SECTION:commits-->
-<!--END_SECTION:commits-->
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
