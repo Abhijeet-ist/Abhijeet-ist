@@ -1,24 +1,43 @@
 name: Commit Time Stats
+
 on:
   schedule:
-    - cron: '0 0 * * 0' # weekly update
-  workflow_dispatch:
+    - cron: '0 0 * * 0' # Runs every Sunday at 00:00 UTC
+  workflow_dispatch: # Allows manual trigger from Actions tab
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
       - name: Generate commit time report
         run: |
-          npx github:abhisheknaiidu/commit-time-analyzer --username Abhijeet-ist > commit_stats.txt
-      - name: Update README
+          git clone https://github.com/abhisheknaiidu/commit-time-analyzer.git
+          cd commit-time-analyzer
+          npm install
+          node index.js --username Abhijeet-ist > ../commit_stats.txt
+
+      - name: Insert stats into README
         run: |
-          sed -i '/<!--START_SECTION:commits-->/r commit_stats.txt' README.md
-      - name: Commit changes
+          if grep -q "<!--START_SECTION:commits-->" README.md; then
+            sed -i '/<!--START_SECTION:commits-->/, /<!--END_SECTION:commits-->/c\
+            <!--START_SECTION:commits-->\n'"$(cat commit_stats.txt)"'\n<!--END_SECTION:commits-->' README.md
+          else
+            echo -e "\n## ⏰ Commit Activity\n\n<!--START_SECTION:commits-->\n$(cat commit_stats.txt)\n<!--END_SECTION:commits-->" >> README.md
+          fi
+
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add README.md
-          git commit -m "update commit stats" || echo "no changes"
+          git commit -m "Update commit time stats" || echo "No changes to commit"
           git push
