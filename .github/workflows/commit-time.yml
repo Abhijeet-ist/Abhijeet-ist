@@ -2,8 +2,8 @@ name: Commit Time Stats
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Runs every Sunday at 00:00 UTC
-  workflow_dispatch: # Allows manual trigger from Actions tab
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -18,9 +18,11 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Generate commit time report
+      - name: Clone and generate commit time report
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git clone https://github.com/abhisheknaiidu/commit-time-analyzer.git
+          git clone https://${TOKEN}@github.com/abhisheknaiidu/commit-time-analyzer.git
           cd commit-time-analyzer
           npm install
           node index.js --username Abhijeet-ist > ../commit_stats.txt
