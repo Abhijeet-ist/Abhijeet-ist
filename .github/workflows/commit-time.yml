@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: Generate commit time report
         run: |
-          npx commit-time-analyzer --username your-github-username > commit_stats.txt
+          npx commit-time-analyzer --username Abhijeet-ist > commit_stats.txt
       - name: Update README
         run: |
           sed -i '/<!--START_SECTION:commits-->/r commit_stats.txt' README.md
