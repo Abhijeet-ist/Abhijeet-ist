@@ -79,7 +79,7 @@ export class Developer {
     <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
     </div>
   </div>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhijeet-ist&theme=react-dark&hide_border=true&area=true" width="95%" alt="Contribution Graph">
+  <!-- <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhijeet-ist&theme=react-dark&hide_border=true&area=true" width="95%" alt="Contribution Graph"> -->
   
   <!-- <picture>
     <source media="(prefers-color-scheme: dark)" srcset="dist/cosmic-contribution-art.png">
