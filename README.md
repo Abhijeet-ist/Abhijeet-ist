@@ -29,8 +29,8 @@
 ## <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/4503d891-510a-4ebd-94c4-ef8958a2e8d4" width="35px">&nbsp; About Me
 
 <div style="display: flex;">
-  <img align="left" width="350" height="350" src="https://i.pinimg.com/736x/17/34/65/173465cca26094d5d121abbfc2da4a1e.jpg" alt="Coding Animation">
-  <div>
+<img align="left" width="300" height="350" src="https://i.pinimg.com/736x/17/34/65/173465cca26094d5d121abbfc2da4a1e.jpg" alt="Coding Animation" style="margin-right: 20px; border-radius: 20px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);">
+    <div>
   
 ```typescript
 // AboutMe.ts
