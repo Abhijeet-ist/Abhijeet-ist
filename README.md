@@ -404,7 +404,7 @@ export class Developer {
 <br>
 <div align="center">
 
-![](https://count.getloli.com/get/@Abhijeet-ist.github.readme)
+![](https://count.getloli.com/@Abhijeet-ist?theme=booru-lewd)
 
 </div>
 
