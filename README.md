@@ -395,15 +395,21 @@ export class Developer {
     <img alt="Cosmic Contribution Art" src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/cosmic-contribution-art.png" width="90%" />
   </picture> -->
 </div>
-
-### 📈 3D Contribution Graph:
-
-<!-- <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100vw"> -->
+<div align="left">
+    <h2><img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35px">&nbsp; 3D Contribution Graph</h2>
+</div>
 <div align="center">
   <img src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%">
 </div>
 <br>
+<div align="center">
+
+![](https://count.getloli.com/get/@Abhijeet-ist.github.readme)
+
+</div>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=fadeIn" width="100%"/>
 </div>
+
+ 
