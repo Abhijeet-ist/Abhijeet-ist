@@ -64,28 +64,22 @@ export class Developer {
   <h2><img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35px">&nbsp; GitHub Stats</h2>
     <br>
     <a href="https://github-trophies.vercel.app/?username=Abhijeet-ist" target="_blank">
-      <img src="https://github-trophies.vercel.app/?username=Abhijeet-ist&theme=monokai&no-frame=true&no-bg=true&margin-w=6&margin-h=6&row=1&column=9&" width="100%">
+      <img src="https://github-trophies.vercel.app/?username=Abhijeet-ist&theme=monokai&no-frame=true&no-bg=true&margin-w=6&margin-h=6&row=1&column=9" width="100%">
     </a>
 </div>
 <!-- if you want to add more trophy inc the column size -->
 <br>
 <div align="center">
-  <img src="https://nirzak-streak-stats.vercel.app?user=Abhijeet-ist&theme=tokyonight&hide_border=true" alt="Current Streak" width="80%" height="170" />
-  <br>
-  
-  <a href="https://github-contributor-stats.vercel.app/api?username=Abhijeet-ist&limit=3&theme=tokyonight&combine_all_yearly_contributions=true">
-  <img src="https://github-contributor-stats.vercel.app/api?username=Abhijeet-ist&limit=3&hide_border=true&theme=tokyonight&combine_all_yearly_contributions=true"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abhijeet-ist&area=true&theme=tokyonight" alt="Profile Details" width="80%" height="200" />
-  <!-- <img src="https://github-readme-stats.vercel.app/api?username=Abhijeet-ist&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" height="170" /> -->
-
+  <img src="https://nirzak-streak-stats.vercel.app?user=Abhijeet-ist&theme=tokyonight&hide_border=true" alt="" width="48%" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Abhijeet-ist&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" height="170" />
   <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhijeet-ist&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170" width="48%" /> -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhijeet-ist&theme=react-dark&hide_border=true&area=true" width="90%" alt="Contribution Graph">
+<!--   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhijeet-ist&theme=react-dark&hide_border=true&area=true" width="90%" alt="Contribution Graph"> -->
 
   <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
     <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
     </div>
   </div>
-  <!-- <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhijeet-ist&theme=react-dark&hide_border=true&area=true" width="95%" alt="Contribution Graph"> -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhijeet-ist&theme=react-dark&hide_border=true&area=true" width="95%" alt="Contribution Graph">
   
   <!-- <picture>
     <source media="(prefers-color-scheme: dark)" srcset="dist/cosmic-contribution-art.png">
