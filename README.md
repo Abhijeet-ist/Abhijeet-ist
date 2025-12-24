@@ -402,7 +402,7 @@ export class Developer {
     <h2><img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35px">&nbsp; 3D Contribution Graph</h2>
 </div>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%">
+  <img src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/main/profile-3d-contrib/profile-night-view.svg" alt="3D Contribution Graph" width="100%">
 </div>
 <br>
 <div align="center">
