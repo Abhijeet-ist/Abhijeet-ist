@@ -74,7 +74,7 @@ export class Developer {
   <br>
   
   <a href="https://github-contributor-stats.vercel.app/api?username=Abhijeet-ist&limit=3&theme=tokyonight&combine_all_yearly_contributions=true">
-  <img src="https://github-contributor-stats.vercel.app/api?username=Abhijeet-ist&limit=3&hide_border=true&theme=tokyonight&combine_all_yearly_contributions=true"/>
+  <!-- <img src="https://github-contributor-stats.vercel.app/api?username=Abhijeet-ist&limit=3&hide_border=true&theme=tokyonight&combine_all_yearly_contributions=true"/> -->
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abhijeet-ist&area=true&theme=tokyonight" alt="Profile Details" width="80%" height="200" />
   <!-- <img src="https://github-readme-stats.vercel.app/api?username=Abhijeet-ist&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" height="170" /> -->
 
