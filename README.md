@@ -77,10 +77,10 @@ export class Developer {
   <img src="https://nirzak-streak-stats.vercel.app?user=Abhijeet-ist&theme=tokyonight&hide_border=true" alt="Current Streak" width="80%" height="170" />
   <br>
   
-  <!-- <img src="https://github-contributor-stats.vercel.app/api?username=Abhijeet-ist&limit=3&hide_border=true&theme=tokyonight&combine_all_yearly_contributions=true"/> -->
+  <img src="https://github-contributor-stats.vercel.app/api?username=Abhijeet-ist&limit=3&hide_border=true&theme=tokyonight&combine_all_yearly_contributions=true"/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abhijeet-ist&area=true&theme=tokyonight" alt="Profile Details" width="80%" height="200" />
 
-  <!--<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhijeet-ist&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170" width="48%" /> -->
+  <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhijeet-ist&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170" width="48%" /> -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhijeet-ist&theme=react-dark&hide_border=true&area=true" width="90%" alt="Contribution Graph">
 
   <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
@@ -414,5 +414,5 @@ export class Developer {
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=fadeIn" width="100%"/>
+  <!-- <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=fadeIn" width="100%"/> -->
 </div>
