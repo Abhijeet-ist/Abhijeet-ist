@@ -415,4 +415,3 @@ export class Developer {
 
 <div align="center">
   <!-- <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=fadeIn" width="100%"/> -->
-</div>
