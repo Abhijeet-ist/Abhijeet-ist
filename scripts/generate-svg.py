@@ -11,6 +11,18 @@ def format_number(num):
     """
     return f"{num:,}"
 
+def load_exclude_languages():
+    """
+    Load the list of languages to exclude from repos.json
+    """
+    repos_file = Path('scripts/repos.json')
+    if repos_file.exists():
+        with open(repos_file, 'r') as f:
+            repos_data = json.load(f)
+        return [l.lower() for l in repos_data.get('exclude_languages', [])]
+    return []
+
+
 def generate_svg(loc_data):
     """
     Generate SVG card with LOC stats
@@ -34,6 +46,9 @@ def generate_svg(loc_data):
                 if reports:
                     total_files += len(reports)
 
+    # Load languages to exclude
+    exclude_languages = load_exclude_languages()
+
     # Second pass: aggregate language stats and merge variants
     for lang, stats in loc_data.items():
         if lang != 'Total' and isinstance(stats, dict):
@@ -45,6 +60,10 @@ def generate_svg(loc_data):
                     lang = 'TypeScript'
                 elif lang == 'JSX':
                     lang = 'JavaScript'
+
+                # Skip excluded languages
+                if lang.lower() in exclude_languages:
+                    continue
 
                 # Merge counts if language already exists
                 if lang in languages:
