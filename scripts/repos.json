@@ -1,3 +1,3 @@
 {
-  "exclude_languages": ["Text","md"]
+  "exclude_languages": ["Text","md", "JSON"]
 }

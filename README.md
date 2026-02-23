@@ -81,7 +81,14 @@ export class Developer {
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abhijeet-ist&area=true&theme=tokyonight" alt="Profile Details" width="80%" height="200" />
 
   <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhijeet-ist&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170" width="48%" /> -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhijeet-ist&theme=react-dark&hide_border=true&area=true" width="90%" alt="Contribution Graph">
+  <!-- LOC Stats SVG -->
+<div align="center">
+<!-- LOC-STATS:START -->
+<img src="./loc-stats.svg" alt="LOC Stats" width="84%" />
+<!-- LOC-STATS:END -->
+</div>
+<br>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhijeet-ist&theme=react-dark&hide_border=true&area=true" width="90%" alt="Contribution Graph">
 
   <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
     <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
@@ -415,9 +422,3 @@ export class Developer {
 
 <div align="center">
 
-<!-- LOC Stats SVG -->
-<div align="center">
-<!-- LOC-STATS:START -->
-<img src="./loc-stats.svg" alt="LOC Stats" width="84%" />
-<!-- LOC-STATS:END -->
-</div>
