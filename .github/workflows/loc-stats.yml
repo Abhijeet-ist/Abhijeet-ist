@@ -38,6 +38,8 @@ jobs:
         run: chmod +x scripts/count-loc.sh
 
       - name: Count lines of code
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           cd $GITHUB_WORKSPACE
           bash scripts/count-loc.sh
