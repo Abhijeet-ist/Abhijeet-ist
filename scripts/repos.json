@@ -1,0 +1,32 @@
+{
+  "repos": [
+    "Abhijeet-ist/Abhijeet-ist",
+    "Abhijeet-ist/AI-3D-PLATFORM",
+    "Abhijeet-ist/AI-TRAVEL-PLANNER",
+    "Abhijeet-ist/Analyze",
+    "Abhijeet-ist/Beyond-Campus",
+    "Abhijeet-ist/Bus-Mangement-System-BMS-",
+    "Abhijeet-ist/C-24",
+    "Abhijeet-ist/Calculator-in-Python",
+    "Abhijeet-ist/Chatbot-Using-Python",
+    "Abhijeet-ist/Chatbot-with-integrated-Bhagvad-Gita",
+    "Abhijeet-ist/FineTunning",
+    "Abhijeet-ist/Futurence",
+    "Abhijeet-ist/Interactive-Resume",
+    "Abhijeet-ist/learning-management",
+    "Abhijeet-ist/lms",
+    "Abhijeet-ist/ML-Model-to-Predict-Stock-Prices",
+    "Abhijeet-ist/MS-Kiota-Lib",
+    "Abhijeet-ist/NFT",
+    "Abhijeet-ist/NFT-project",
+    "Abhijeet-ist/Project_1",
+    "Abhijeet-ist/Reality-loops",
+    "Abhijeet-ist/SPC-Website",
+    "Abhijeet-ist/SyntaxError",
+    "Abhijeet-ist/Techflence",
+    "Abhijeet-ist/techfluence",
+    "Abhijeet-ist/Vyana",
+    "Abhijeet-ist/yo"
+  ],
+  "exclude_languages": ["Markdown", "Text", "json", "yaml"]
+}
