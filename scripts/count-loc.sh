@@ -13,12 +13,49 @@ TEMP_DIR=$(mktemp -d)
 echo "Workspace: $WORKSPACE_DIR"
 echo "Temporary directory: $TEMP_DIR"
 
+# Require a GitHub token to access private repositories
+if [ -z "$GITHUB_TOKEN" ]; then
+    echo "Error: GITHUB_TOKEN is not set. A personal access token with 'repo' scope is required."
+    exit 1
+fi
+
+# Fetch all repos (public + private) owned by the authenticated user via GitHub API
+echo "Fetching repository list from GitHub API..."
+ALL_REPOS=()
+PAGE=1
+while true; do
+    RESPONSE=$(curl -s \
+        -H "Authorization: token $GITHUB_TOKEN" \
+        -H "Accept: application/vnd.github+json" \
+        "https://api.github.com/user/repos?per_page=100&page=${PAGE}&type=owner&affiliation=owner")
+
+    REPOS_ON_PAGE=$(echo "$RESPONSE" | jq -r '.[].full_name // empty')
+
+    if [ -z "$REPOS_ON_PAGE" ]; then
+        break
+    fi
+
+    while IFS= read -r repo; do
+        ALL_REPOS+=("$repo")
+    done <<< "$REPOS_ON_PAGE"
+
+    COUNT=$(echo "$RESPONSE" | jq '. | length')
+    if [ "$COUNT" -lt 100 ]; then
+        break
+    fi
+
+    PAGE=$((PAGE + 1))
+done
+
+echo "Found ${#ALL_REPOS[@]} repositories (public + private)."
+
 cd "$TEMP_DIR"
 
 echo "Cloning repositories..."
-jq -r '.repos[]' "$REPOS_JSON" | while read -r repo; do
+for repo in "${ALL_REPOS[@]}"; do
     echo "  Cloning $repo..."
-    git clone --depth 1 "https://github.com/$repo.git" "$(basename $repo)" 2>/dev/null || echo "Failed to clone $repo"
+    git clone --depth 1 "https://${GITHUB_TOKEN}@github.com/${repo}.git" "$(basename "$repo")" 2>/dev/null \
+        || echo "  Warning: Failed to clone $repo, skipping."
 done
 
 echo "Running tokei to count lines of code..."
