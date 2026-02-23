@@ -87,7 +87,6 @@ export class Developer {
 <img src="./loc-stats.svg" alt="LOC Stats" width="84%" />
 <!-- LOC-STATS:END -->
 </div>
-<br>
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhijeet-ist&theme=react-dark&hide_border=true&area=true" width="90%" alt="Contribution Graph">
 
   <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
