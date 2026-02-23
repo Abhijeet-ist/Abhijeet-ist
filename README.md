@@ -414,4 +414,10 @@ export class Developer {
 </div>
 
 <div align="center">
-  <!-- <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=fadeIn" width="100%"/> -->
+
+<!-- LOC Stats SVG -->
+<div align="center">
+<!-- LOC-STATS:START -->
+<img src="./loc-stats.svg" alt="LOC Stats" width="84%" />
+<!-- LOC-STATS:END -->
+</div>
