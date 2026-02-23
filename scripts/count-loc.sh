@@ -29,6 +29,15 @@ while true; do
         -H "Accept: application/vnd.github+json" \
         "https://api.github.com/user/repos?per_page=100&page=${PAGE}&type=owner&affiliation=owner")
 
+    # Check if response is a JSON array; if not, it's an API error
+    IS_ARRAY=$(echo "$RESPONSE" | jq -r 'if type == "array" then "yes" else "no" end' 2>/dev/null || echo "no")
+    if [ "$IS_ARRAY" != "yes" ]; then
+        ERROR_MSG=$(echo "$RESPONSE" | jq -r '.message // "Unknown error"' 2>/dev/null || echo "Invalid response")
+        echo "Error: GitHub API returned an error: $ERROR_MSG"
+        echo "Make sure the GH_PAT secret is set and has the 'repo' scope."
+        exit 1
+    fi
+
     REPOS_ON_PAGE=$(echo "$RESPONSE" | jq -r '.[].full_name // empty')
 
     if [ -z "$REPOS_ON_PAGE" ]; then
