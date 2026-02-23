@@ -74,21 +74,22 @@ export class Developer {
   <br>
   <a href="https://github-contributor-stats.vercel.app/api?username=Abhijeet-ist&limit=3&theme=tokyonight&combine_all_yearly_contributions=true">
   <!-- <img src="https://github-readme-stats.vercel.app/api?username=Abhijeet-ist&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" height="170" /> -->
-  <img src="https://nirzak-streak-stats.vercel.app?user=Abhijeet-ist&theme=tokyonight&hide_border=true" alt="Current Streak" width="80%" height="170" />
+  <img src="https://nirzak-streak-stats.vercel.app?user=Abhijeet-ist&theme=tokyonight&hide_border=true" alt="Current Streak" width="60%" height="170" />
   <br>
   
-  <img src="https://github-contributor-stats.vercel.app/api?username=Abhijeet-ist&limit=3&hide_border=true&theme=tokyonight&combine_all_yearly_contributions=true"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abhijeet-ist&area=true&theme=tokyonight" alt="Profile Details" width="80%" height="200" />
+  <img src="https://github-contributor-stats.vercel.app/api?username=Abhijeet-ist&limit=3&hide_border=true&theme=tokyonight&combine_all_yearly_contributions=true" alt="Contributor Stats" width="70%" height="170" />
+
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abhijeet-ist&area=true&theme=tokyonight" alt="Profile Details" width="80%" height="210" />
 
   <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhijeet-ist&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170" width="48%" /> -->
   <!-- LOC Stats SVG -->
 <div align="center">
 <!-- LOC-STATS:START -->
-<img src="./loc-stats.svg" alt="LOC Stats" width="84%" />
+<img src="./loc-stats.svg" alt="LOC Stats" width="83%" height="200" />
 <!-- LOC-STATS:END -->
 </div>
 <br>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhijeet-ist&theme=react-dark&hide_border=true&area=true" width="90%" alt="Contribution Graph">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhijeet-ist&theme=react-dark&hide_border=true&area=true" width="92%" height="220" alt="Contribution Graph">
 
   <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
     <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
