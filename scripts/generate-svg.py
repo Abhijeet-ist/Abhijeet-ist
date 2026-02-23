@@ -55,28 +55,46 @@ def generate_svg(loc_data):
     # Sort by code count and get top 6
     top_languages = sorted(languages.items(), key=lambda x: x[1]['code'], reverse=True)[:6]
 
+    # Tokyo Night theme palette
+    TN_BG         = '#1a1b27'   # card background
+    TN_BG_PANEL   = '#24283b'   # bar track / divider panel
+    TN_BORDER     = '#292e42'   # subtle border / divider
+    TN_FG         = '#c0caf5'   # primary text
+    TN_FG_MUTED   = '#565f89'   # secondary / muted text
+    TN_PURPLE     = '#bb9af7'   # accent (title, gradient start)
+    TN_BLUE       = '#7aa2f7'   # gradient end / fallback bar color
+    TN_CYAN       = '#2ac3de'   # "updated" footer text
+    TN_RED        = '#f7768e'   # JSON
+    TN_ORANGE     = '#ff9e64'   # HTML / Rust
+    TN_YELLOW     = '#e0af68'   # JavaScript / JSON alt
+    TN_GREEN      = '#9ece6a'   # CSS / Shell / Vue
+    TN_TEAL       = '#73daca'   # Go / YAML
+
     language_colors = {
-        'Python': '#0080FF',
-        'JavaScript': '#FFD700',
-        'TypeScript': '#00CED1',
-        'Rust': '#dea584',
-        'Go': '#00ADD8',
-        'Java': '#b07219',
-        'Ruby': '#701516',
-        'C': '#555555',
-        'C++': '#f34b7d',
-        'C#': '#178600',
-        'PHP': '#4F5D95',
-        'Swift': '#ffac45',
-        'Kotlin': '#F18E33',
-        'HTML': '#e34c26',
-        'CSS': '#563d7c',
-        'Sass': '#CC0066',
-        'SCSS': '#c6538c',
-        'Shell': '#89e051',
-        'Haskell': '#5e5086',
-        'Vue': '#41b883',
-        'JSON': '#b30000',
+        'Python':     TN_BLUE,
+        'JavaScript': TN_YELLOW,
+        'TypeScript': TN_BLUE,
+        'Rust':       TN_ORANGE,
+        'Go':         TN_TEAL,
+        'Java':       TN_ORANGE,
+        'Ruby':       TN_RED,
+        'C':          TN_FG_MUTED,
+        'C++':        TN_RED,
+        'C#':         TN_GREEN,
+        'PHP':        TN_PURPLE,
+        'Swift':      TN_ORANGE,
+        'Kotlin':     TN_ORANGE,
+        'HTML':       TN_ORANGE,
+        'CSS':        TN_GREEN,
+        'Sass':       TN_RED,
+        'SCSS':       TN_RED,
+        'Shell':      TN_GREEN,
+        'Haskell':    TN_PURPLE,
+        'Vue':        TN_TEAL,
+        'JSON':       TN_RED,
+        'YAML':       TN_PURPLE,
+        'Markdown':   TN_FG_MUTED,
+        'Dockerfile': TN_CYAN,
     }
 
     svg_width = 800
@@ -85,32 +103,38 @@ def generate_svg(loc_data):
     svg = f'''<svg width="{svg_width}" height="{svg_height}" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="accent-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#b30000;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#ff0000;stop-opacity:0.8" />
+      <stop offset="0%" style="stop-color:{TN_PURPLE};stop-opacity:1" />
+      <stop offset="100%" style="stop-color:{TN_BLUE};stop-opacity:0.9" />
     </linearGradient>
   </defs>
 
-  <rect width="{svg_width}" height="{svg_height}" fill="#000000" rx="10"/>
+  <!-- Background -->
+  <rect width="{svg_width}" height="{svg_height}" fill="{TN_BG}" rx="10"/>
 
+  <!-- Top accent bar -->
   <rect x="10" y="10" width="{svg_width - 20}" height="3" fill="url(#accent-gradient)" rx="1.5"/>
 
-  <text x="40" y="55" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="32" font-weight="700" fill="#ffffff">
+  <!-- Total LOC -->
+  <text x="40" y="55" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="32" font-weight="700" fill="{TN_FG}">
     {format_number(total_code)}
   </text>
-  <text x="40" y="80" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="14" fill="#ffffff">
+  <text x="40" y="78" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="13" fill="{TN_FG_MUTED}" letter-spacing="1">
     LINES OF CODE
   </text>
 
-  <text x="{svg_width - 40}" y="55" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="24" font-weight="600" fill="#ffffff" text-anchor="end">
+  <!-- Total files (top-right) -->
+  <text x="{svg_width - 40}" y="55" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="24" font-weight="600" fill="{TN_FG}" text-anchor="end">
     {format_number(total_files)}
   </text>
-  <text x="{svg_width - 40}" y="75" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#ffffff" text-anchor="end">
+  <text x="{svg_width - 40}" y="75" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="{TN_FG_MUTED}" text-anchor="end" letter-spacing="1">
     FILES
   </text>
 
-  <line x1="30" y1="100" x2="{svg_width - 30}" y2="100" stroke="#30363d" stroke-width="1"/>
+  <!-- Divider -->
+  <line x1="30" y1="100" x2="{svg_width - 30}" y2="100" stroke="{TN_BORDER}" stroke-width="1"/>
 
-  <text x="40" y="130" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="16" font-weight="600" fill="#b30000">
+  <!-- Section title -->
+  <text x="40" y="130" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="13" font-weight="600" fill="{TN_PURPLE}" letter-spacing="2">
     TOP LANGUAGES
   </text>
 '''
@@ -121,30 +145,30 @@ def generate_svg(loc_data):
 
     for idx, (lang, lang_data) in enumerate(top_languages):
         code_lines = lang_data['code']
-        color = language_colors.get(lang, '#58a6ff')
+        color = language_colors.get(lang, TN_BLUE)
         bar_width = (code_lines / max_code) * max_bar_width
         percentage = (code_lines / total_code) * 100
 
         svg += f'''
-  <text x="40" y="{y_offset}" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="13" fill="#ffffff">
+  <text x="40" y="{y_offset}" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="13" fill="{TN_FG}">
     {lang}
   </text>
-  <rect x="180" y="{y_offset - 12}" width="{max_bar_width}" height="16" fill="#21262d" rx="4"/>
-  <rect x="180" y="{y_offset - 12}" width="{bar_width}" height="16" fill="{color}" rx="4" opacity="0.8"/>
-  <text x="{180 + max_bar_width + 20}" y="{y_offset}" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#ffffff">
+  <rect x="180" y="{y_offset - 12}" width="{max_bar_width}" height="14" fill="{TN_BG_PANEL}" rx="3"/>
+  <rect x="180" y="{y_offset - 12}" width="{bar_width}" height="14" fill="{color}" rx="3" opacity="0.85"/>
+  <text x="{180 + max_bar_width + 20}" y="{y_offset}" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="{TN_FG}">
     {format_number(code_lines)}
   </text>
-  <text x="{svg_width - 40}" y="{y_offset}" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#ffffff" text-anchor="end">
+  <text x="{svg_width - 40}" y="{y_offset}" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="{TN_FG_MUTED}" text-anchor="end">
     {percentage:.1f}%
   </text>
 '''
         y_offset += 25
 
     svg += '''
-  <text x="{}" y="{}" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="10" fill="#00FFFF" text-anchor="end">
+  <text x="{}" y="{}" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="10" fill="{}" text-anchor="end">
     Updated automatically via GitHub Actions
   </text>
-</svg>'''.format(svg_width - 20, svg_height - 10)
+</svg>'''.format(svg_width - 20, svg_height - 10, TN_CYAN)
 
     return svg
 
