@@ -27,7 +27,7 @@ while true; do
     RESPONSE=$(curl -s \
         -H "Authorization: token $GITHUB_TOKEN" \
         -H "Accept: application/vnd.github+json" \
-        "https://api.github.com/user/repos?per_page=100&page=${PAGE}&type=owner&affiliation=owner")
+        "https://api.github.com/user/repos?per_page=100&page=${PAGE}&type=owner")
 
     # Check if response is a JSON array; if not, it's an API error
     IS_ARRAY=$(echo "$RESPONSE" | jq -r 'if type == "array" then "yes" else "no" end' 2>/dev/null || echo "no")
