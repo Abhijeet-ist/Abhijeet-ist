@@ -27,5 +27,5 @@
     "Abhijeet-ist/Vyana",
     "Abhijeet-ist/yo"
   ],
-  "exclude_languages": ["Markdown", "Text", "json", "yaml"]
+  "exclude_languages": ["Text", "json"]
 }

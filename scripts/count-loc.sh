@@ -27,8 +27,6 @@ EXCLUDE_FLAGS=" --exclude '*.txt' --exclude 'README*' --exclude 'LICENSE*' --exc
 while IFS= read -r lang; do
     case "$(echo $lang | tr '[:upper:]' '[:lower:]')" in
         json)       EXCLUDE_FLAGS="$EXCLUDE_FLAGS --exclude '*.json'" ;;
-        # yaml)       EXCLUDE_FLAGS="$EXCLUDE_FLAGS --exclude '*.yml' --exclude '*.yaml'" ;;
-        # markdown)   EXCLUDE_FLAGS="$EXCLUDE_FLAGS --exclude '*.md'" ;;
         text)       EXCLUDE_FLAGS="$EXCLUDE_FLAGS --exclude '*.txt'" ;;
         toml)       EXCLUDE_FLAGS="$EXCLUDE_FLAGS --exclude '*.toml'" ;;
         xml)        EXCLUDE_FLAGS="$EXCLUDE_FLAGS --exclude '*.xml'" ;;
