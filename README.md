@@ -85,7 +85,7 @@ export class Developer {
   <!-- LOC Stats SVG -->
 <div align="center">
 <!-- LOC-STATS:START -->
-<img src="./loc-stats.svg" alt="LOC Stats" width="83%" height="200" />
+<img src="./loc-stats.svg" alt="LOC Stats" width="84%" />
 <!-- LOC-STATS:END -->
 </div>
 <br>
