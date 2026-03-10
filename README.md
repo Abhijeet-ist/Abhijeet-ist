@@ -10,6 +10,7 @@
   <div>
     <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FAbhijeet-Ist%2FAbhijeet-Ist&label=VISITORS&labelColor=%23000&countColor=%230A0209" alt="Profile Views" />
   </div>
+
   
   <div style="margin-top: 20px;">
     <a href="https://www.linkedin.com/in/abhijeet-kr28/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -17,6 +18,10 @@
     <a href="https://instagram.com/abhijeet.ist"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
     <a href="mailto:kumarabhijeet4132@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   </div>
+  <br>
+  <a href="https://www.thegitcity.com/dev/abhijeet-ist">
+    <img src="https://www.thegitcity.com/dev/abhijeet-ist/opengraph-image" width="600" alt="Abhijeet Kumar - Git City"/>
+  </a>
 </div>
 <!-- GitHub Metrics -->
 <!-- <div align="center">
@@ -78,6 +83,7 @@ export class Developer {
   <br>
   
   <img src="https://github-contributor-stats.vercel.app/api?username=Abhijeet-ist&limit=3&hide_border=true&theme=tokyonight&combine_all_yearly_contributions=true" alt="Contributor Stats"/>
+  
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abhijeet-ist&area=true&theme=tokyonight" alt="Profile Details" width="80%" height="200"/>
 
   <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhijeet-ist&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170" width="48%" /> -->
