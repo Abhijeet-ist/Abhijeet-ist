@@ -14,7 +14,7 @@
 
   <!-- Total LOC -->
   <text x="40" y="55" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="32" font-weight="700" fill="#c0caf5">
-    726,013
+    729,495
   </text>
   <text x="40" y="78" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="13" fill="#565f89" letter-spacing="1">
     LINES OF CODE
@@ -22,7 +22,7 @@
 
   <!-- Total files (top-right) -->
   <text x="760" y="55" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="24" font-weight="600" fill="#c0caf5" text-anchor="end">
-    3,591
+    3,622
   </text>
   <text x="760" y="75" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#565f89" text-anchor="end" letter-spacing="1">
     FILES
@@ -45,16 +45,16 @@
     235,391
   </text>
   <text x="760" y="160" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#565f89" text-anchor="end">
-    32.4%
+    32.3%
   </text>
 
   <text x="40" y="185" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="13" fill="#c0caf5">
     YAML
   </text>
   <rect x="180" y="173" width="450" height="14" fill="#24283b" rx="3"/>
-  <rect x="180" y="173" width="55.48173039750883" height="14" fill="#bb9af7" rx="3" opacity="0.85"/>
+  <rect x="180" y="173" width="55.55819891159815" height="14" fill="#bb9af7" rx="3" opacity="0.85"/>
   <text x="650" y="185" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#c0caf5">
-    29,022
+    29,062
   </text>
   <text x="760" y="185" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#565f89" text-anchor="end">
     4.0%
@@ -105,7 +105,7 @@
     9,098
   </text>
   <text x="760" y="285" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#565f89" text-anchor="end">
-    1.3%
+    1.2%
   </text>
 
   <text x="780" y="310" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="10" fill="#2ac3de" text-anchor="end">
