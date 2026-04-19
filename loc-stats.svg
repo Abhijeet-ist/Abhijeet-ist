@@ -22,7 +22,7 @@
 
   <!-- Total files (top-right) -->
   <text x="760" y="55" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="24" font-weight="600" fill="#c0caf5" text-anchor="end">
-    3,633
+    3,634
   </text>
   <text x="760" y="75" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#565f89" text-anchor="end" letter-spacing="1">
     FILES
