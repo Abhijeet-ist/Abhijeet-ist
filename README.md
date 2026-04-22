@@ -75,14 +75,14 @@ export class Developer {
 <!-- if you want to add more trophy inc the column size -->
 <br>
 <div align="center">
-  <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhijeet-ist&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170" width="48%" />  -->
+
   <br>
   <a href="https://github-contributor-stats.vercel.app/api?username=Abhijeet-ist&limit=3&theme=tokyonight&combine_all_yearly_contributions=true">
-  <!-- <img src="https://github-readme-stats.vercel.app/api?username=Abhijeet-ist&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" height="170" /> -->
-  <img src="https://nirzak-streak-stats.vercel.app?user=Abhijeet-ist&theme=tokyonight&hide_border=true" alt="Current Streak" width="80%" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Abhijeet-ist&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" height="170" />
+  <img src="https://streak-stats.demolab.com/?user=abhijeet-ist&locale=en&mode=daily&theme=tokyonight&hide_border=true&border_radius=5&order=3&card_height=235" alt="Current Streak" width="80%" height="170" />
   <br>
   
-  <img src="https://github-contributor-stats.vercel.app/api?username=Abhijeet-ist&limit=3&hide_border=true&theme=tokyonight&combine_all_yearly_contributions=true" alt="Contributor Stats"/>
+  <!-- <img src="https://github-contributor-stats.vercel.app/api?username=Abhijeet-ist&limit=3&hide_border=true&theme=tokyonight&combine_all_yearly_contributions=true" alt="Contributor Stats"/> -->
   
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abhijeet-ist&area=true&theme=tokyonight" alt="Profile Details" width="80%" height="200"/>
 
