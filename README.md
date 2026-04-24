@@ -194,7 +194,7 @@ export class Developer {
   <a href="#"><img src="https://img.shields.io/badge/NixOS-5277C3?style=for-the-badge&logo=nixos&logoColor=white" height="30" /></a>
   <a href="#"><img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=macos&logoColor=white" height="30" /></a>
 
-<div align="center">
+<!-- <div align="center">
   <h2>Development Workflow</h2>
   <div>
     <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50" height="50" alt="VSCode" /></a>
@@ -205,7 +205,7 @@ export class Developer {
     <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="50" height="50" alt="Docker" /></a>
     <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="50" height="50" alt="Linux" /></a>
   </div>
-</div>
+</div> -->
 
 <br>
 
