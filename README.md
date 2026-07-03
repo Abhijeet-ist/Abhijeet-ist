@@ -396,7 +396,7 @@ export class Developer {
   <!-- <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph.svg"> <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph.svg"> 
   </picture> -->
 
-  <!-- <picture>
+  <picture>
   <source
     media="(prefers-color-scheme: dark)"
     srcset="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph-dark.svg"
@@ -409,14 +409,14 @@ export class Developer {
     alt="Pacman Contribution Graph"
     src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph.svg"
   />
-</picture> -->
+</picture> 
 
-<div align="center">
+<!-- <div align="center">
   <img
     src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph.svg"
     alt="Pacman Contribution Graph"
   />
-</div>
+</div> -->
 
 <!-- Cosmic Contribution Art -->
 <div align="center">
