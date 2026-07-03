@@ -387,7 +387,6 @@ export class Developer {
 </div>
 <br>
 
-<div align="center">
   <!-- <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/github-snake.svg" />
@@ -397,7 +396,7 @@ export class Developer {
   <!-- <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph.svg"> <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph.svg"> 
   </picture> -->
 
-  <picture>
+  <!-- <picture>
   <source
     media="(prefers-color-scheme: dark)"
     srcset="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph-dark.svg"
@@ -410,7 +409,13 @@ export class Developer {
     alt="Pacman Contribution Graph"
     src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph.svg"
   />
-</picture>
+</picture> -->
+
+<div align="center">
+  <img
+    src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph.svg"
+    alt="Pacman Contribution Graph"
+  />
 </div>
 
 <!-- Cosmic Contribution Art -->
