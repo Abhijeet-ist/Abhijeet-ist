@@ -16,29 +16,21 @@ jobs:
       contents: write
 
     steps:
-      # Generate the pacman SVG
       - name: Generate pacman contribution graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      # Debug: show where files were generated
       - name: Debug generated files
         run: |
-          echo "Current directory:"
           pwd
-          echo ""
-          echo "Directory tree:"
-          find . -maxdepth 3 | sort
-          echo ""
-          echo "SVG files:"
+          find . -maxdepth 3
           find . -name "*.svg"
 
-      # Publish generated files
       - name: Push pacman graph to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
-          build_dir: output
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
