@@ -323,7 +323,7 @@ export class Developer {
 
 <!-- Animated Skill Bars -->
 <!-- <div align="center"> -->
-  <h3>Proficiency Level</h3>
+  <!-- <h3>Proficiency Level</h3>
 </div>
 
 <div align="center">
@@ -353,70 +353,21 @@ export class Developer {
       </td>
     </tr>
   </table>
-</div>
+</div> -->
 
 
-<br>
 
-## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDlvanNsbnRuOXE3d2ZodmNwMnI1ejBqcTZ3ZzQ2bjhhbDlwZG9hcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">&nbsp; Let's Connect!
 
 <div align="center">
-  <a href="https://twitter.com/abhijeet_ist" target="_blank">
-    <img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-  </a>
-  <a href="https://www.linkedin.com/in/abhijeet-kr28/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://instagram.com/abhijeet.ist" target="_blank">
-    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-  <a href="https://www.hackerrank.com/@kumarabhijeet411" target="_blank">
-    <img src="https://img.shields.io/badge/-HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" />
-  </a>
-  <a href="https://auth.geeksforgeeks.org/user/abhijeet_ist" target="_blank">
-    <img src="https://img.shields.io/badge/-GeeksforGeeks-0F9D58?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" />
-  </a>
-</div>
-
-<br>
-
-<div align="center">
-  <a href="#">
-    <img src="https://img.shields.io/badge/🔥_My_Current_Focus-building_scalable_systems-9cf?style=for-the-badge&labelColor=black&color=6e4aff" alt="Current Focus" />
-  </a>
-</div>
-<br>
-
   <!-- <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/github-snake.svg" />
     <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/github-snake.svg" />
   </picture> -->
 
-  <!-- <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph.svg"> <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph.svg"> 
-  </picture> -->
-
-  <picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph.svg"
-  />
-  <img
-    alt="Pacman Contribution Graph"
-    src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph.svg"
-  />
-</picture> 
-
-<!-- <div align="center">
-  <img
-    src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph.svg"
-    alt="Pacman Contribution Graph"
-  />
-</div> -->
+  <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph.svg"> <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Abhijeet-ist/Abhijeet-ist/output/pacman-contribution-graph.svg"> 
+  </picture>
+</div>
 
 <!-- Cosmic Contribution Art -->
 <div align="center">
@@ -447,3 +398,33 @@ export class Developer {
 
 <div align="center">
 
+
+<br>
+
+## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDlvanNsbnRuOXE3d2ZodmNwMnI1ejBqcTZ3ZzQ2bjhhbDlwZG9hcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">&nbsp; Let's Connect!
+<div align="center">
+  <a href="#">
+    <img src="https://img.shields.io/badge/🔥_My_Current_Focus-building_scalable_systems-9cf?style=for-the-badge&labelColor=black&color=6e4aff" alt="Current Focus" />
+  </a>
+</div>
+<br>
+
+<div align="center">
+  <a href="https://twitter.com/abhijeet_ist" target="_blank">
+    <img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+  </a>
+  <a href="https://www.linkedin.com/in/abhijeet-kr28/" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://instagram.com/abhijeet.ist" target="_blank">
+    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://www.hackerrank.com/@kumarabhijeet411" target="_blank">
+    <img src="https://img.shields.io/badge/-HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" />
+  </a>
+  <a href="https://auth.geeksforgeeks.org/user/abhijeet_ist" target="_blank">
+    <img src="https://img.shields.io/badge/-GeeksforGeeks-0F9D58?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" />
+  </a>
+</div>
+
+<br>
