@@ -3,6 +3,7 @@ from dateutil import relativedelta
 import requests
 import os
 from lxml import etree
+from pathlib import Path
 import time
 import hashlib
 
@@ -13,6 +14,7 @@ import hashlib
 # Use getenv here to avoid raising on import; we validate presence in __main__ and before requests
 HEADERS = {'authorization': 'token ' + (os.getenv('ACCESS_TOKEN') or '')}
 USER_NAME = os.getenv('USER_NAME', '') # 'Andrew6rant'
+ROOT = Path(__file__).resolve().parent
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
 
 
@@ -321,7 +323,10 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib
     """
     Parse SVG files and update elements with my age, commits, stars, repositories, and lines written
     """
-    tree = etree.parse(filename)
+    svg_path = ROOT / filename
+    if not svg_path.exists():
+        raise FileNotFoundError(f"Missing required asset: {svg_path}")
+    tree = etree.parse(str(svg_path))
     root = tree.getroot()
     justify_format(root, 'commit_data', commit_data, 22)
     justify_format(root, 'star_data', star_data, 14)
