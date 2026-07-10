@@ -14,7 +14,7 @@
 
   <!-- Total LOC -->
   <text x="40" y="55" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="32" font-weight="700" fill="#c0caf5">
-    754,670
+    754,733
   </text>
   <text x="40" y="78" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="13" fill="#565f89" letter-spacing="1">
     LINES OF CODE
@@ -22,7 +22,7 @@
 
   <!-- Total files (top-right) -->
   <text x="760" y="55" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="24" font-weight="600" fill="#c0caf5" text-anchor="end">
-    3,776
+    3,778
   </text>
   <text x="760" y="75" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#565f89" text-anchor="end" letter-spacing="1">
     FILES
@@ -76,9 +76,9 @@
     Python
   </text>
   <rect x="180" y="223" width="450" height="14" fill="#24283b" rx="3"/>
-  <rect x="180" y="223" width="24.741844157331872" height="14" fill="#7aa2f7" rx="3" opacity="0.85"/>
+  <rect x="180" y="223" width="24.79155245350331" height="14" fill="#7aa2f7" rx="3" opacity="0.85"/>
   <text x="650" y="235" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#c0caf5">
-    13,439
+    13,466
   </text>
   <text x="760" y="235" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#565f89" text-anchor="end">
     1.8%
