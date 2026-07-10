@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -39,11 +39,17 @@ jobs:
           USER_NAME: ${{ secrets.USER_NAME }}
         run: python today.py
 
-      - name: Commit
+      - name: Commit and push
         run: |-
-          git add .
-          git diff
           git config --global user.email "kumarabhijeet4132@gmail.com"
           git config --global user.name "Abhijeet-ist"
-          git commit -m "Updated README" -a || echo "No changes to commit"
-          git push
+
+          git add .
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Updated README"
+          git pull --rebase origin main
+          git push origin HEAD:main
