@@ -13,7 +13,7 @@ import hashlib
 # Issues and pull requests permissions not needed at the moment, but may be used in the future
 # Use getenv here to avoid raising on import; we validate presence in __main__ and before requests
 HEADERS = {'authorization': 'token ' + (os.getenv('ACCESS_TOKEN') or '')}
-USER_NAME = os.getenv('USER_NAME', '') # 'Andrew6rant'
+USER_NAME = os.getenv('USER_NAME', '') # Use getenv here to avoid raising on import; we validate presence in __main__ and before requests
 ROOT = Path(__file__).resolve().parent
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
 
@@ -325,7 +325,8 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib
     """
     svg_path = ROOT / filename
     if not svg_path.exists():
-        raise FileNotFoundError(f"Missing required asset: {svg_path}")
+        # create a minimal placeholder SVG so the workflow can continue
+        create_placeholder_svg(svg_path)
     tree = etree.parse(str(svg_path))
     root = tree.getroot()
     justify_format(root, 'commit_data', commit_data, 22)
@@ -336,7 +337,36 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib
     justify_format(root, 'loc_data', loc_data[2], 9)
     justify_format(root, 'loc_add', loc_data[0])
     justify_format(root, 'loc_del', loc_data[1], 7)
-    tree.write(filename, encoding='utf-8', xml_declaration=True)
+    tree.write(str(svg_path), encoding='utf-8', xml_declaration=True)
+
+
+def create_placeholder_svg(path: Path):
+    """Create a minimal SVG file with the expected element ids so the script can update it.
+
+    The SVG contains text elements with ids used by `svg_overwrite` and `justify_format`.
+    """
+    path.parent.mkdir(parents=True, exist_ok=True)
+    content = '''<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200">
+  <style>text { font-family: Arial, sans-serif; font-size: 14px; }</style>
+  <text id="commit_data" x="10" y="20">0</text>
+  <text id="commit_data_dots" x="200" y="20">...</text>
+  <text id="star_data" x="10" y="40">0</text>
+  <text id="star_data_dots" x="200" y="40">...</text>
+  <text id="repo_data" x="10" y="60">0</text>
+  <text id="repo_data_dots" x="200" y="60">...</text>
+  <text id="contrib_data" x="10" y="80">0</text>
+  <text id="contrib_data_dots" x="200" y="80">...</text>
+  <text id="follower_data" x="10" y="100">0</text>
+  <text id="follower_data_dots" x="200" y="100">...</text>
+  <text id="loc_data" x="10" y="120">0</text>
+  <text id="loc_data_dots" x="200" y="120">...</text>
+  <text id="loc_add" x="10" y="140">0</text>
+  <text id="loc_del" x="200" y="140">0</text>
+</svg>
+'''
+    with open(path, 'w', encoding='utf-8') as f:
+        f.write(content)
 
 
 def justify_format(root, element_id, new_text, length=0):
