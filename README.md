@@ -87,7 +87,7 @@ export class Developer {
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abhijeet-ist&area=true&theme=tokyonight" alt="Profile Details" width="80%" height="200"/>
 
   <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhijeet-ist&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170" width="48%" /> -->
-  <!-- LOC Stats SVG -->
+<!-- LOC Stats SVG -->
 <div align="center">
 <!-- LOC-STATS:START -->
 <img src="./loc-stats.svg" alt="LOC Stats" width="84%" />
