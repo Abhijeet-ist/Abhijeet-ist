@@ -10,8 +10,9 @@ import hashlib
 # Account permissions: read:Followers, read:Starring, read:Watching
 # Repository permissions: read:Commit statuses, read:Contents, read:Issues, read:Metadata, read:Pull Requests
 # Issues and pull requests permissions not needed at the moment, but may be used in the future
-HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
-USER_NAME = os.environ['USER_NAME'] # 'Andrew6rant'
+# Use getenv here to avoid raising on import; we validate presence in __main__ and before requests
+HEADERS = {'authorization': 'token ' + (os.getenv('ACCESS_TOKEN') or '')}
+USER_NAME = os.getenv('USER_NAME', '') # 'Andrew6rant'
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
 
 
@@ -388,7 +389,19 @@ def user_getter(username):
     }'''
     variables = {'login': username}
     request = simple_request(user_getter.__name__, query, variables)
-    return {'id': request.json()['data']['user']['id']}, request.json()['data']['user']['createdAt']
+
+    payload = request.json()
+    if payload.get('errors'):
+        raise Exception(f"user_getter GraphQL errors: {payload['errors']}")
+
+    user = payload.get('data', {}).get('user')
+    if user is None:
+        raise Exception(
+            f"user_getter: no user returned for login='{username}'. "
+            "Check USER_NAME secret and ACCESS_TOKEN permissions."
+        )
+
+    return {'id': user['id']}, user['createdAt']
 
 def follower_getter(username):
     """
@@ -441,6 +454,11 @@ if __name__ == '__main__':
     """
     Andrew Grant (Andrew6rant), 2022-2025
     """
+    # Fail fast with clear messages when required environment variables are missing
+    if not os.getenv('USER_NAME'):
+        raise Exception("USER_NAME is not set. Add a repository secret named 'USER_NAME' with your GitHub username.")
+    if not os.getenv('ACCESS_TOKEN'):
+        raise Exception("ACCESS_TOKEN is not set. Add a repository secret named 'ACCESS_TOKEN' with a valid PAT.")
     print('Calculation times:')
     # define global variable for owner ID and calculate user's creation date
     # e.g {'id': 'MDQ6VXNlcjU3MzMxMTM0'} and 2019-11-03T21:15:07Z for username 'Andrew6rant'
