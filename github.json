@@ -1,0 +1,877 @@
+{
+    "login": "Abhijeet-ist",
+    "name": "Abhijeet Kumar",
+    "followers": {
+        "totalCount": 57
+    },
+    "following": {
+        "totalCount": 37
+    },
+    "repositories": {
+        "totalCount": 62,
+        "nodes": [
+            {
+                "name": "Abhijeet-ist",
+                "stargazerCount": 12,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 418
+                        }
+                    }
+                }
+            },
+            {
+                "name": "profile-engine",
+                "stargazerCount": 0,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": null
+            },
+            {
+                "name": "techfluence",
+                "stargazerCount": 9,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 5
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Gutenberg_Project",
+                "stargazerCount": 1,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 8
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Private-Repo",
+                "stargazerCount": 0,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 1718
+                        }
+                    }
+                }
+            },
+            {
+                "name": "ACIE",
+                "stargazerCount": 0,
+                "forkCount": 0,
+                "isFork": true,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 19
+                        }
+                    }
+                }
+            },
+            {
+                "name": "NomenAI",
+                "stargazerCount": 1,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 6
+                        }
+                    }
+                }
+            },
+            {
+                "name": "FemoraHealth",
+                "stargazerCount": 1,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 10
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Interactive-Resume",
+                "stargazerCount": 21,
+                "forkCount": 1,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 23
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Mobile-Units-Sales-Dashboard",
+                "stargazerCount": 0,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 4
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Thread_Management_Library",
+                "stargazerCount": 2,
+                "forkCount": 2,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 11
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Vyana",
+                "stargazerCount": 7,
+                "forkCount": 1,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 39
+                        }
+                    }
+                }
+            },
+            {
+                "name": "PCOD_Analysis",
+                "stargazerCount": 0,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 1
+                        }
+                    }
+                }
+            },
+            {
+                "name": "learning-management",
+                "stargazerCount": 8,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 2
+                        }
+                    }
+                }
+            },
+            {
+                "name": "lms",
+                "stargazerCount": 8,
+                "forkCount": 0,
+                "isFork": true,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 2
+                        }
+                    }
+                }
+            },
+            {
+                "name": "MS-Kiota-Lib",
+                "stargazerCount": 8,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 1
+                        }
+                    }
+                }
+            },
+            {
+                "name": "ML-Model-to-Predict-Stock-Prices",
+                "stargazerCount": 8,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 4
+                        }
+                    }
+                }
+            },
+            {
+                "name": "AI-3D-PLATFORM",
+                "stargazerCount": 7,
+                "forkCount": 0,
+                "isFork": true,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 7
+                        }
+                    }
+                }
+            },
+            {
+                "name": "C-24",
+                "stargazerCount": 9,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 207
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Reality-loops",
+                "stargazerCount": 9,
+                "forkCount": 0,
+                "isFork": true,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 9
+                        }
+                    }
+                }
+            },
+            {
+                "name": "FineTunning",
+                "stargazerCount": 9,
+                "forkCount": 1,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 5
+                        }
+                    }
+                }
+            },
+            {
+                "name": "kana-dojo",
+                "stargazerCount": 5,
+                "forkCount": 0,
+                "isFork": true,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 5803
+                        }
+                    }
+                }
+            },
+            {
+                "name": "magika",
+                "stargazerCount": 5,
+                "forkCount": 0,
+                "isFork": true,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 1709
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Portfolio_Os",
+                "stargazerCount": 0,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 13
+                        }
+                    }
+                }
+            },
+            {
+                "name": "weels-and-deals",
+                "stargazerCount": 0,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 2
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Bus-Mangement-System-BMS-",
+                "stargazerCount": 10,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 1
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Project_1",
+                "stargazerCount": 8,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 1
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Calculator-in-Python",
+                "stargazerCount": 8,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 3
+                        }
+                    }
+                }
+            },
+            {
+                "name": "AI-TRAVEL-PLANNER",
+                "stargazerCount": 8,
+                "forkCount": 0,
+                "isFork": true,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 14
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Chatbot-with-integrated-Bhagvad-Gita",
+                "stargazerCount": 10,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 2
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Futurence",
+                "stargazerCount": 10,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 3
+                        }
+                    }
+                }
+            },
+            {
+                "name": "SyntaxError",
+                "stargazerCount": 8,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 1
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Analyze",
+                "stargazerCount": 8,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": null
+            },
+            {
+                "name": "NFT-project",
+                "stargazerCount": 8,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 9
+                        }
+                    }
+                }
+            },
+            {
+                "name": "NFT",
+                "stargazerCount": 8,
+                "forkCount": 0,
+                "isFork": true,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 13
+                        }
+                    }
+                }
+            },
+            {
+                "name": "yo",
+                "stargazerCount": 8,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 7
+                        }
+                    }
+                }
+            },
+            {
+                "name": "SPC-Website",
+                "stargazerCount": 11,
+                "forkCount": 1,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 13
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Chatbot-Using-Python",
+                "stargazerCount": 8,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 3
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Techflence",
+                "stargazerCount": 10,
+                "forkCount": 0,
+                "isFork": true,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 113
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Beyond-Campus",
+                "stargazerCount": 11,
+                "forkCount": 1,
+                "isFork": false,
+                "isPrivate": false,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 13
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Stay-finder",
+                "stargazerCount": 0,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 3
+                        }
+                    }
+                }
+            },
+            {
+                "name": "SwiftShare",
+                "stargazerCount": 0,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 6
+                        }
+                    }
+                }
+            },
+            {
+                "name": "ML-Journal",
+                "stargazerCount": 1,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 13
+                        }
+                    }
+                }
+            },
+            {
+                "name": "ISRO",
+                "stargazerCount": 0,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 3
+                        }
+                    }
+                }
+            },
+            {
+                "name": "dev-environment-files",
+                "stargazerCount": 0,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 6
+                        }
+                    }
+                }
+            },
+            {
+                "name": "UI",
+                "stargazerCount": 1,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 4
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Wallpapers",
+                "stargazerCount": 1,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 2
+                        }
+                    }
+                }
+            },
+            {
+                "name": "SheCare",
+                "stargazerCount": 0,
+                "forkCount": 1,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 35
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Cpp-25",
+                "stargazerCount": 0,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 117
+                        }
+                    }
+                }
+            },
+            {
+                "name": "meetai",
+                "stargazerCount": 0,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 89
+                        }
+                    }
+                }
+            },
+            {
+                "name": "demo-repository",
+                "stargazerCount": 0,
+                "forkCount": 0,
+                "isFork": true,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 9
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Certificates",
+                "stargazerCount": 0,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 14
+                        }
+                    }
+                }
+            },
+            {
+                "name": "JavaScript",
+                "stargazerCount": 1,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 140
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Printify",
+                "stargazerCount": 0,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 3
+                        }
+                    }
+                }
+            },
+            {
+                "name": "HealthCare-ChatBot",
+                "stargazerCount": 0,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 4
+                        }
+                    }
+                }
+            },
+            {
+                "name": "aero-model-verse-forge",
+                "stargazerCount": 0,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 3
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Personal-Portfolio",
+                "stargazerCount": 1,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 2
+                        }
+                    }
+                }
+            },
+            {
+                "name": "print-it-flow-main",
+                "stargazerCount": 1,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 3
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Whatsaap-Script",
+                "stargazerCount": 1,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 6
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Quarks",
+                "stargazerCount": 1,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 5
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Hack-3",
+                "stargazerCount": 1,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 2
+                        }
+                    }
+                }
+            },
+            {
+                "name": "WDC-25",
+                "stargazerCount": 1,
+                "forkCount": 0,
+                "isFork": false,
+                "isPrivate": true,
+                "defaultBranchRef": {
+                    "target": {
+                        "history": {
+                            "totalCount": 9
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "contributionsCollection": {
+        "totalCommitContributions": 467,
+        "totalPullRequestContributions": 3,
+        "totalIssueContributions": 0,
+        "totalRepositoryContributions": 9
+    }
+}
