@@ -1,9 +1,10 @@
 USER_QUERY = """
-query($login: String!) {
-  user(login: $login) {
+query($login: String!, $cursor: String) {
 
+  user(login: $login) {
     login
     name
+
     followers {
       totalCount
     }
@@ -13,53 +14,59 @@ query($login: String!) {
     }
 
     repositories(
+
       first: 100
+      after: $cursor
+
       ownerAffiliations: OWNER
+
       orderBy: {
-        field: UPDATED_AT,
+        field: UPDATED_AT
         direction: DESC
       }
+
     ) {
 
       totalCount
 
-      nodes {
+      pageInfo {
 
-        name
-        stargazerCount
-        forkCount
-        isFork
-        isPrivate
-
-        defaultBranchRef {
-
-          target {
-
-            ... on Commit {
-
-              history {
-                totalCount
-              }
-
-            }
-
-          }
-
-        }
+        hasNextPage
+        endCursor
 
       }
 
-    }
+      nodes {
 
-    contributionsCollection {
+  name
 
-      totalCommitContributions
+  nameWithOwner
 
-      totalPullRequestContributions
+  url
 
-      totalIssueContributions
+  isPrivate
 
-      totalRepositoryContributions
+  isFork
+
+  stargazerCount
+
+  forkCount
+
+  pushedAt
+
+  defaultBranchRef {
+
+    target {
+
+      ... on Commit {
+
+        oid
+
+        history {
+          totalCount
+        }
+
+      }
 
     }
 

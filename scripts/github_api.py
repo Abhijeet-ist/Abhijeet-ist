@@ -46,17 +46,44 @@ class GitHubAPI:
 
         return payload["data"]
 
-
     def get_user(self):
 
-        return self.execute(
+        cursor = None
 
-            USER_QUERY,
+        repositories = []
 
-            {
+        first_page = None
 
-                "login": self.username
+        while True:
 
-            }
+            data = self.execute(
 
-        )["user"]
+                USER_QUERY,
+
+                {
+
+                    "login": self.username,
+
+                    "cursor": cursor
+
+                }
+
+            )
+
+            user = data["user"]
+
+            if first_page is None:
+                first_page = user
+
+            repo_data = user["repositories"]
+
+            repositories.extend(repo_data["nodes"])
+
+            if not repo_data["pageInfo"]["hasNextPage"]:
+                break
+
+            cursor = repo_data["pageInfo"]["endCursor"]
+
+        first_page["repositories"]["nodes"] = repositories
+
+        return first_page

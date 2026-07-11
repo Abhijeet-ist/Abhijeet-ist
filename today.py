@@ -1,20 +1,13 @@
-import json
-
-from pathlib import Path
-
 from scripts.github_api import GitHubAPI
-
+from scripts.statistics import Statistics
+from scripts.svg import SVG
 
 github = GitHubAPI()
 
 user = github.get_user()
 
-Path("github.json").write_text(
+stats = Statistics(user).calculate()
 
-    json.dumps(user, indent=4),
+SVG(stats).generate()
 
-    encoding="utf-8"
-
-)
-
-print("GitHub data saved.")
+print("SVG generated successfully.")

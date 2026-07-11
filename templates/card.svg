@@ -1,0 +1,22 @@
+<svg
+xmlns="http://www.w3.org/2000/svg"
+width="900"
+height="520">
+
+<rect
+width="100%"
+height="100%"
+fill="{{BACKGROUND}}"/>
+
+<text
+x="40"
+y="60"
+font-size="26"
+font-family="JetBrains Mono"
+fill="{{TEXT}}">
+
+{{USERNAME}}
+
+</text>
+
+</svg>
