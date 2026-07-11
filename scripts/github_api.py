@@ -44,9 +44,12 @@ class GitHubAPI:
         payload = response.json()
 
         if "errors" in payload:
+            details = "\n".join(
+                f"- {error.get('message')} at {error.get('locations')}"
+                for error in payload["errors"]
+            )
             raise RuntimeError(
-
-                f"GraphQL error: {payload['errors']}\n"
+                f"GitHub GraphQL query failed:\n{details}\n"
                 f"--- QUERY START ---\n{query}\n--- QUERY END ---"
 
             )
