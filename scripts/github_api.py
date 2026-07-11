@@ -33,7 +33,9 @@ class GitHubAPI:
 
                 "variables": variables or {}
 
-            }
+            },
+
+            timeout=30,
 
         )
 
@@ -42,7 +44,12 @@ class GitHubAPI:
         payload = response.json()
 
         if "errors" in payload:
-            raise RuntimeError(payload["errors"])
+            raise RuntimeError(
+
+                f"GraphQL error: {payload['errors']}\n"
+                f"--- QUERY START ---\n{query}\n--- QUERY END ---"
+
+            )
 
         return payload["data"]
 

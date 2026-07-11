@@ -73,4 +73,7 @@ query($login: String!, $cursor: String) {
   }
 
 }
+    }
+  }
+}
 """
