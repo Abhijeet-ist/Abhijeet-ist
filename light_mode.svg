@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="200">
   <style>text { font-family: Arial, sans-serif; font-size: 14px; }</style>
-  <text id="commit_data" x="10" y="20">2,998</text>
+  <text id="commit_data" x="10" y="20">2,999</text>
   <text id="commit_data_dots" x="200" y="20"> ................. </text>
   <text id="star_data" x="10" y="40">274</text>
   <text id="star_data_dots" x="200" y="40"> ........... </text>
@@ -13,6 +13,6 @@
   <text id="follower_data_dots" x="200" y="100"> ........ </text>
   <text id="loc_data" x="10" y="120">728,230</text>
   <text id="loc_data_dots" x="200" y="120">. </text>
-  <text id="loc_add" x="10" y="140">898,594</text>
-  <text id="loc_del" x="200" y="140">170,364</text>
+  <text id="loc_add" x="10" y="140">898,601</text>
+  <text id="loc_del" x="200" y="140">170,371</text>
 </svg>
