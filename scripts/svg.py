@@ -1,7 +1,6 @@
 from .renderer import Renderer
 from .theme import DARK, LIGHT
 
-
 class SVG:
 
     def __init__(self, stats):
