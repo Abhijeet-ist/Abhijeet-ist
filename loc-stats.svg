@@ -14,7 +14,7 @@
 
   <!-- Total LOC -->
   <text x="40" y="55" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="32" font-weight="700" fill="#c0caf5">
-    766,758
+    766,951
   </text>
   <text x="40" y="78" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="13" fill="#565f89" letter-spacing="1">
     LINES OF CODE
@@ -22,7 +22,7 @@
 
   <!-- Total files (top-right) -->
   <text x="760" y="55" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="24" font-weight="600" fill="#c0caf5" text-anchor="end">
-    3,876
+    3,880
   </text>
   <text x="760" y="75" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#565f89" text-anchor="end" letter-spacing="1">
     FILES
@@ -42,7 +42,7 @@
   <rect x="180" y="148" width="450" height="14" fill="#24283b" rx="3"/>
   <rect x="180" y="148" width="450.0" height="14" fill="#7aa2f7" rx="3" opacity="0.85"/>
   <text x="650" y="160" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#c0caf5">
-    246,830
+    247,010
   </text>
   <text x="760" y="160" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#565f89" text-anchor="end">
     32.2%
@@ -52,7 +52,7 @@
     YAML
   </text>
   <rect x="180" y="173" width="450" height="14" fill="#24283b" rx="3"/>
-  <rect x="180" y="173" width="57.9550702912936" height="14" fill="#bb9af7" rx="3" opacity="0.85"/>
+  <rect x="180" y="173" width="57.91283753694182" height="14" fill="#bb9af7" rx="3" opacity="0.85"/>
   <text x="650" y="185" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#c0caf5">
     31,789
   </text>
@@ -64,7 +64,7 @@
     CSS
   </text>
   <rect x="180" y="198" width="450" height="14" fill="#24283b" rx="3"/>
-  <rect x="180" y="198" width="36.59178381882267" height="14" fill="#9ece6a" rx="3" opacity="0.85"/>
+  <rect x="180" y="198" width="36.565118821100356" height="14" fill="#9ece6a" rx="3" opacity="0.85"/>
   <text x="650" y="210" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#c0caf5">
     20,071
   </text>
@@ -76,7 +76,7 @@
     Python
   </text>
   <rect x="180" y="223" width="450" height="14" fill="#24283b" rx="3"/>
-  <rect x="180" y="223" width="24.318559332333994" height="14" fill="#7aa2f7" rx="3" opacity="0.85"/>
+  <rect x="180" y="223" width="24.300838022752117" height="14" fill="#7aa2f7" rx="3" opacity="0.85"/>
   <text x="650" y="235" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#c0caf5">
     13,339
   </text>
@@ -88,7 +88,7 @@
     HTML
   </text>
   <rect x="180" y="248" width="450" height="14" fill="#24283b" rx="3"/>
-  <rect x="180" y="248" width="23.738808086537293" height="14" fill="#ff9e64" rx="3" opacity="0.85"/>
+  <rect x="180" y="248" width="23.721509250637624" height="14" fill="#ff9e64" rx="3" opacity="0.85"/>
   <text x="650" y="260" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#c0caf5">
     13,021
   </text>
@@ -100,7 +100,7 @@
     JavaScript
   </text>
   <rect x="180" y="273" width="450" height="14" fill="#24283b" rx="3"/>
-  <rect x="180" y="273" width="16.812786128104364" height="14" fill="#e0af68" rx="3" opacity="0.85"/>
+  <rect x="180" y="273" width="16.80053439132019" height="14" fill="#e0af68" rx="3" opacity="0.85"/>
   <text x="650" y="285" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#c0caf5">
     9,222
   </text>
