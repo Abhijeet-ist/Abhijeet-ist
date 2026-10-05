@@ -14,7 +14,7 @@
 
   <!-- Total LOC -->
   <text x="40" y="55" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="32" font-weight="700" fill="#c0caf5">
-    778,277
+    778,260
   </text>
   <text x="40" y="78" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="13" fill="#565f89" letter-spacing="1">
     LINES OF CODE
@@ -22,7 +22,7 @@
 
   <!-- Total files (top-right) -->
   <text x="760" y="55" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="24" font-weight="600" fill="#c0caf5" text-anchor="end">
-    3,935
+    3,934
   </text>
   <text x="760" y="75" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#565f89" text-anchor="end" letter-spacing="1">
     FILES
