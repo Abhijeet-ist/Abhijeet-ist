@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380"><style>.s{font-family:'Helvetica Neue',Helvetica,'Inter',Arial,sans-serif}.m{font-family:'SF Mono','JetBrains Mono',Menlo,Consolas,monospace}.g{fill:#8c8a84}.i{fill:#111110}</style><rect width="1200" height="380" fill="#edebe6"/><rect x="40" y="35" width="8" height="8" fill="#ff4f00"/><text x="58" y="44" class="m" font-size="12"><tspan class="g">01 / </tspan><tspan class="i">about</tspan></text><text x="1160" y="44" class="m g" font-size="12" text-anchor="end">AboutMe.ts</text><line x1="40" y1="62" x2="1160" y2="62" stroke="#111110" stroke-opacity=".18"/>
+<text x="38" y="134" class="s i" font-size="46" font-weight="700" letter-spacing="-1.2">I turn ideas into intelligent systems</text>
+<text x="38" y="188" class="s i" font-size="46" font-weight="700" letter-spacing="-1.2">and design systems that matter<tspan fill="#ff4f00">.</tspan></text>
+<g class="m">
+<text x="40" y="256" class="g" font-size="11">education</text><text x="40" y="276" class="i" font-size="13">B.Tech, Computer Science</text>
+<text x="440" y="256" class="g" font-size="11">currently</text><text x="440" y="276" class="i" font-size="13">resilient backends &amp; Next.js apps</text>
+<text x="840" y="256" class="g" font-size="11">runs on</text><text x="840" y="276" class="i" font-size="13">Kali Linux, NixOS, macOS</text>
+<text x="40" y="324" class="g" font-size="11">fuel</text><text x="40" y="344" class="i" font-size="13">coffee, always</text>
+<text x="440" y="324" class="g" font-size="11">motto</text><text x="440" y="344" class="i" font-size="13">if life gives you bugs, deploy a hotfix</text>
+<text x="840" y="324" class="g" font-size="11">orgs</text><text x="840" y="344" class="i" font-size="13">EduLinkUp, VySentra</text>
+</g></svg>

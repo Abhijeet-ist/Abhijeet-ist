@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300"><style>.s{font-family:'Helvetica Neue',Helvetica,'Inter',Arial,sans-serif}.m{font-family:'SF Mono','JetBrains Mono',Menlo,Consolas,monospace}.g{fill:#8c8a84}.i{fill:#111110}</style><rect width="1200" height="300" fill="#edebe6"/><rect x="40" y="35" width="8" height="8" fill="#ff4f00"/><text x="58" y="44" class="m" font-size="12"><tspan class="g">23 / </tspan><tspan class="i">contact</tspan></text><text x="1160" y="44" class="m g" font-size="12" text-anchor="end">Patna, IST UTC +05:30</text><line x1="40" y1="62" x2="1160" y2="62" stroke="#111110" stroke-opacity=".18"/>
+<text x="34" y="182" class="s i" font-size="84" font-weight="700" letter-spacing="-3">let’s build something<tspan fill="#ff4f00">.</tspan></text>
+<line x1="40" y1="222" x2="1160" y2="222" stroke="#111110" stroke-opacity=".18"/>
+<text x="40" y="256" class="m i" font-size="14">kumarabhijeet4132@gmail.com</text>
+<text x="1160" y="256" class="m g" font-size="14" text-anchor="end">abhijeet-ist.vercel.app</text></svg>
