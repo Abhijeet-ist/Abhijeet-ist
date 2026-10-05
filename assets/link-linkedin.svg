@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 140" width="400" height="140"><style>.s{font-family:'Helvetica Neue',Helvetica,'Inter',Arial,sans-serif}.m{font-family:'SF Mono','JetBrains Mono',Menlo,Consolas,monospace}.g{fill:#8c8a84}.i{fill:#111110}</style><rect width="400" height="140" fill="#edebe6"/>
+<rect x="0.5" y="0.5" width="399" height="139" fill="none" stroke="#111110" stroke-opacity=".18"/>
+<g opacity="0">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.200;1" dur="1.00s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="0 8;0 8;0 0" keyTimes="0;0.200;1"
+    dur="1.00s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;.2 .8 .2 1"/>
+  <rect x="28" y="27" width="7" height="7" fill="#ff4f00"/>
+  <text x="42" y="35" class="m" font-size="11"><tspan class="g">01 · </tspan><tspan class="i">social</tspan></text>
+  <text x="25" y="92" class="s i" font-size="40" font-weight="700" letter-spacing="-1.5">linkedin</text>
+  <text x="28" y="122" class="m g" font-size="12">/in/abhijeet-kr28</text>
+</g>
+<line x1="28" y1="104" x2="92" y2="104" stroke="#ff4f00" stroke-width="2" pathLength="1"
+  stroke-dasharray="1" stroke-dashoffset="1">
+  <animate attributeName="stroke-dashoffset" values="1;1;0" keyTimes="0;0.462;1"
+    dur="1.30s" fill="freeze"/>
+</line>
+<g transform="translate(358 26)">
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;4 -4;0 0"
+      dur="1.8s" begin="0.80s" repeatCount="indefinite" calcMode="spline"
+      keySplines=".4 0 .6 1;.4 0 .6 1"/>
+    <path d="M0,14 L14,0 M4,0 L14,0 L14,10" fill="none" stroke="#ff4f00" stroke-width="2"
+      stroke-linecap="square"/>
+  </g>
+</g></svg>
