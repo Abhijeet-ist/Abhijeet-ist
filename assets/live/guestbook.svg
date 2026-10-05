@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 270" width="1200" height="270">
+<style>.s{font-family:'Helvetica Neue',Helvetica,'Inter',Arial,sans-serif}.m{font-family:'SF Mono','JetBrains Mono',Menlo,Consolas,monospace}.d{font-family:'Noto Serif Devanagari','Tiro Devanagari Sanskrit','Kohinoor Devanagari','Devanagari Sangam MN',Mangal,serif}.g{fill:#8c8a84}.i{fill:#111110}.p{fill:#edebe6}</style>
+<rect width="1200" height="270" fill="#edebe6"/>
+<rect x="40" y="35" width="8" height="8" fill="#ff4f00"/>
+<text x="58" y="44" class="m" font-size="12"><tspan class="g">21 / </tspan><tspan class="i">guestbook</tspan></text>
+<text x="1160" y="44" class="m g" font-size="12" text-anchor="end">open an issue titled  guestbook: your note</text>
+<line x1="40" y1="62" x2="1160" y2="62" stroke="#111110" stroke-opacity=".18"/>
+<text x="38" y="124" class="s i" font-size="44" font-weight="700" letter-spacing="-1.5">Leave a note<tspan fill="#ff4f00">.</tspan></text>
+<text x="1160" y="122" class="m g" font-size="12" text-anchor="end">issues → new → title starts with "guestbook:"</text>
+<text x="40" y="182" class="s g" font-size="22">be the first to sign it.</text>
+<text x="40" y="244" class="m g" font-size="11">0 signatures so far</text>
+</svg>

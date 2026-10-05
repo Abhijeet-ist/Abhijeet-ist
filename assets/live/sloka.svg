@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 410" width="1200" height="410">
+<style>.s{font-family:'Helvetica Neue',Helvetica,'Inter',Arial,sans-serif}.m{font-family:'SF Mono','JetBrains Mono',Menlo,Consolas,monospace}.d{font-family:'Noto Serif Devanagari','Tiro Devanagari Sanskrit','Kohinoor Devanagari','Devanagari Sangam MN',Mangal,serif}.g{fill:#8c8a84}.i{fill:#111110}.p{fill:#edebe6}</style>
+<rect width="1200" height="410" fill="#edebe6"/>
+<rect x="40" y="35" width="8" height="8" fill="#ff4f00"/>
+<text x="58" y="44" class="m" font-size="12"><tspan class="g">20 / </tspan><tspan class="i">sloka of the day</tspan></text>
+<text x="1160" y="44" class="m g" font-size="12" text-anchor="end">a new verse every day</text>
+<line x1="40" y1="62" x2="1160" y2="62" stroke="#111110" stroke-opacity=".18"/>
+<text x="1160" y="330" class="s" font-size="230" font-weight="700" letter-spacing="-10" text-anchor="end" fill="#e3e0d9">6.6</text>
+<text x="40" y="104" class="m g" font-size="11">bhagavad gita 6.6</text>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.182;1" dur="1.10s" fill="freeze"/><text x="40" y="170" class="d i" font-size="36">बन्धुरात्मात्मनस्तस्य येनात्मैवात्मना जितः ।</text></g>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.400;1" dur="1.50s" fill="freeze"/><text x="40" y="224" class="d i" font-size="36">अनात्मनस्तु शत्रुत्वे वर्तेतात्मैव शत्रुवत् ॥</text></g>
+<line x1="40" y1="258" x2="88" y2="258" stroke="#ff4f00" stroke-width="2"/>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.550;1" dur="2.00s" fill="freeze"/><text x="40" y="300" class="s i" font-size="22">To one who has mastered the self, the self is a friend;</text><text x="40" y="332" class="s i" font-size="22">to one who has not, the self acts like an enemy.</text></g>
+<text x="40" y="382" class="m g" font-size="11">verse 9 of 10 · changes daily</text>
+</svg>
