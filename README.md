@@ -18,7 +18,8 @@
 <img src="./assets/live/trend.svg" width="100%" alt="07 / trend" />
 <img src="./assets/live/city.svg" width="100%" alt="08 / contribution city" />
 <img src="./assets/live/languages.svg" width="100%" alt="09 / languages" />
-<img src="./assets/live/ranks.svg" width="100%" alt="10 / ranks" />
+<!-- <img src="./assets/live/ranks.svg" width="100%" alt="10 / ranks" /> -->
+<img src="./assets/live/trophies.svg" width="100%" alt="trophies" />
 
 <img src="./assets/live/receipt.svg" width="100%" alt="11 / receipt" />
 <!-- <img src="./assets/live/boarding.svg" width="100%" alt="12 / boarding pass" /> -->
