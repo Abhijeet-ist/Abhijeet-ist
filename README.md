@@ -1,7 +1,6 @@
 <a href="https://abhijeet-ist.vercel.app">
   <img src="./assets/live/banner.svg" width="100%" alt="abhijeet kumar — code architect" />
 </a>
-
 <img src="./assets/about.svg" width="100%" alt="01 / about" />
 <img src="./assets/stack.svg" width="100%" alt="02 / stack" />
 <img src="./assets/live/periodic.svg" width="100%" alt="03 / elements" />
@@ -42,12 +41,14 @@
 <img src="./assets/footer.svg" width="100%" alt="23 / contact" />
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/abhijeet-kr28/">linkedin</a> &nbsp;·&nbsp;
-  <a href="https://x.com/abhijeet_ist">x</a> &nbsp;·&nbsp;
-  <a href="https://instagram.com/abhijeet.ist">instagram</a> &nbsp;·&nbsp;
-  <a href="https://www.hackerrank.com/@kumarabhijeet411">hackerrank</a> &nbsp;·&nbsp;
-  <a href="https://auth.geeksforgeeks.org/user/abhijeet_ist">geeksforgeeks</a> &nbsp;·&nbsp;
-  <a href="https://abhijeet-ist.vercel.app">portfolio</a>
+  <a href="https://www.linkedin.com/in/abhijeet-kr28/"><img src="./assets/link-linkedin.svg" width="32%" alt="linkedin" /></a>
+  <a href="https://x.com/abhijeet_ist"><img src="./assets/link-x.svg" width="32%" alt="x" /></a>
+  <a href="https://instagram.com/abhijeet.ist"><img src="./assets/link-instagram.svg" width="32%" alt="instagram" /></a>
+</p>
+<p align="center">
+  <a href="https://www.hackerrank.com/@kumarabhijeet411"><img src="./assets/link-hackerrank.svg" width="32%" alt="hackerrank" /></a>
+  <a href="https://auth.geeksforgeeks.org/user/abhijeet_ist"><img src="./assets/link-geeksforgeeks.svg" width="32%" alt="geeksforgeeks" /></a>
+  <a href="https://abhijeet-ist.vercel.app"><img src="./assets/link-portfolio.svg" width="32%" alt="portfolio" /></a>
 </p>
 
 <p align="center"><sub>© 2026 Abhijeet Kumar. Design and code, all rights reserved.</sub></p>
