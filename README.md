@@ -1,5 +1,5 @@
 <a href="https://abhijeet-ist.vercel.app">
-  <img src="./assets/banner.svg" width="100%" alt="abhijeet kumar — code architect" />
+  <img src="./assets/live/banner.svg" width="100%" alt="abhijeet kumar — code architect" />
 </a>
 <br/><br/>
 
