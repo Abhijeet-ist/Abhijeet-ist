@@ -1,0 +1,17 @@
+name: guestbook-ping
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  ping:
+    if: startsWith(github.event.issue.title, 'guestbook')
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          curl -s -X POST \
+            -H "Authorization: Bearer ${{ secrets.ENGINE_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/Abhijeet-ist/profile-engine/dispatches \
+            -d '{"event_type":"guestbook","client_payload":{"issue":${{ github.event.issue.number }}}}'
