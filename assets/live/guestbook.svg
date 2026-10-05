@@ -7,6 +7,6 @@
 <line x1="40" y1="62" x2="1160" y2="62" stroke="#111110" stroke-opacity=".18"/>
 <text x="38" y="124" class="s i" font-size="44" font-weight="700" letter-spacing="-1.5">Leave a note<tspan fill="#ff4f00">.</tspan></text>
 <text x="1160" y="122" class="m g" font-size="12" text-anchor="end">issues → new → title starts with "guestbook:"</text>
-<text x="40" y="182" class="s g" font-size="22">be the first to sign it.</text>
-<text x="40" y="244" class="m g" font-size="11">0 signatures so far</text>
+<clipPath id="t12"><rect x="36" y="156" width="1128" height="36"><animate attributeName="width" values="0;0;1128.0" keyTimes="0;0.444;1" dur="0.90s" fill="freeze"/></rect></clipPath><g clip-path="url(#t12)"><text x="40" y="182" class="m g" font-size="12">@Abhijeet-ist</text><text x="220" y="183" class="s i" font-size="22">Hi</text><text x="1160" y="182" class="m g" font-size="11" text-anchor="end">05 oct 2026</text></g><line x1="40" y1="200" x2="1160" y2="200" stroke="#111110" stroke-opacity=".1"/>
+<text x="40" y="244" class="m g" font-size="11">1 signatures so far</text>
 </svg>

@@ -5,14 +5,14 @@
 <text x="58" y="44" class="m" font-size="12"><tspan class="g">07 / </tspan><tspan class="i">trend</tspan></text>
 <text x="1160" y="44" class="m g" font-size="12" text-anchor="end">monthly contributions</text>
 <line x1="40" y1="62" x2="1160" y2="62" stroke="#111110" stroke-opacity=".18"/>
-<text x="38" y="114" class="s i" font-size="40" font-weight="700" letter-spacing="-1.5">2,362<tspan class="m g" font-size="13" font-weight="400" letter-spacing="0" dx="14">contributions in the last 12 months</tspan></text>
+<text x="38" y="114" class="s i" font-size="40" font-weight="700" letter-spacing="-1.5">2,772<tspan class="m g" font-size="13" font-weight="400" letter-spacing="0" dx="14">contributions in the last 12 months</tspan></text>
 <line x1="40" y1="205.0" x2="1160" y2="205.0" stroke="#111110" stroke-opacity=".12" stroke-dasharray="2 4"/>
-<text x="1160" y="199.0" class="m g" font-size="10" text-anchor="end">195</text>
+<text x="1160" y="199.0" class="m g" font-size="10" text-anchor="end">211</text>
 <line x1="40" y1="140.0" x2="1160" y2="140.0" stroke="#111110" stroke-opacity=".12" stroke-dasharray="2 4"/>
-<text x="1160" y="134.0" class="m g" font-size="10" text-anchor="end">391</text>
+<text x="1160" y="134.0" class="m g" font-size="10" text-anchor="end">423</text>
 <line x1="40" y1="270" x2="1160" y2="270" stroke="#111110" stroke-opacity=".25"/>
-<path d="M60.0,206.8 C75.0,205.4 120.0,202.2 150.0,198.5 C180.0,194.9 210.0,185.5 240.0,184.9 C270.0,184.2 300.0,191.2 330.0,194.5 C360.0,197.9 390.0,202.3 420.0,204.8 C450.0,207.4 480.0,209.2 510.0,209.8 C540.0,210.5 570.0,213.8 600.0,208.8 C630.0,203.8 660.0,175.4 690.0,179.9 C720.0,184.4 750.0,226.7 780.0,235.8 C810.0,244.8 840.0,250.1 870.0,234.1 C900.0,218.1 930.0,135.8 960.0,140.0 C990.0,144.2 1020.0,238.1 1050.0,259.4 C1080.0,270.0 1125.0,266.0 1140.0,267.3 L1140.0,270 L60.0,270 Z" fill="#111110" fill-opacity=".07"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.545;1" dur="2.20s" fill="freeze"/></path>
-<path d="M60.0,206.8 C75.0,205.4 120.0,202.2 150.0,198.5 C180.0,194.9 210.0,185.5 240.0,184.9 C270.0,184.2 300.0,191.2 330.0,194.5 C360.0,197.9 390.0,202.3 420.0,204.8 C450.0,207.4 480.0,209.2 510.0,209.8 C540.0,210.5 570.0,213.8 600.0,208.8 C630.0,203.8 660.0,175.4 690.0,179.9 C720.0,184.4 750.0,226.7 780.0,235.8 C810.0,244.8 840.0,250.1 870.0,234.1 C900.0,218.1 930.0,135.8 960.0,140.0 C990.0,144.2 1020.0,238.1 1050.0,259.4 C1080.0,270.0 1125.0,266.0 1140.0,267.3" fill="none" stroke="#111110" stroke-width="1.6" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0" keyTimes="0;0.1;1" dur="2.2s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1"/></path>
+<path d="M60.0,209.1 C75.0,208.1 120.0,208.2 150.0,203.0 C180.0,197.8 210.0,180.5 240.0,178.1 C270.0,175.8 300.0,185.8 330.0,188.9 C360.0,191.9 390.0,193.6 420.0,196.2 C450.0,198.9 480.0,203.4 510.0,204.5 C540.0,205.7 570.0,207.9 600.0,203.3 C630.0,198.8 660.0,172.9 690.0,177.2 C720.0,181.5 750.0,222.0 780.0,229.1 C810.0,236.2 840.0,234.8 870.0,219.9 C900.0,205.1 930.0,134.8 960.0,140.0 C990.0,145.2 1020.0,231.3 1050.0,250.9 C1080.0,270.0 1125.0,256.6 1140.0,257.7 L1140.0,270 L60.0,270 Z" fill="#111110" fill-opacity=".07"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.545;1" dur="2.20s" fill="freeze"/></path>
+<path d="M60.0,209.1 C75.0,208.1 120.0,208.2 150.0,203.0 C180.0,197.8 210.0,180.5 240.0,178.1 C270.0,175.8 300.0,185.8 330.0,188.9 C360.0,191.9 390.0,193.6 420.0,196.2 C450.0,198.9 480.0,203.4 510.0,204.5 C540.0,205.7 570.0,207.9 600.0,203.3 C630.0,198.8 660.0,172.9 690.0,177.2 C720.0,181.5 750.0,222.0 780.0,229.1 C810.0,236.2 840.0,234.8 870.0,219.9 C900.0,205.1 930.0,134.8 960.0,140.0 C990.0,145.2 1020.0,231.3 1050.0,250.9 C1080.0,270.0 1125.0,256.6 1140.0,257.7" fill="none" stroke="#111110" stroke-width="1.6" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0" keyTimes="0;0.1;1" dur="2.2s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1"/></path>
 <text x="60.0" y="296" class="m g" font-size="11" text-anchor="middle">oct</text>
 <text x="150.0" y="296" class="m g" font-size="11" text-anchor="middle">nov</text>
 <text x="240.0" y="296" class="m g" font-size="11" text-anchor="middle">dec</text>
@@ -26,5 +26,5 @@
 <text x="960.0" y="296" class="m g" font-size="11" text-anchor="middle">aug</text>
 <text x="1050.0" y="296" class="m g" font-size="11" text-anchor="middle">sep</text>
 <text x="1140.0" y="296" class="m g" font-size="11" text-anchor="middle">oct</text>
-<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.808;1" dur="2.60s" fill="freeze"/><circle cx="960.0" cy="140.0" r="5" fill="#ff4f00"/><text x="960.0" y="126.0" class="s i" font-size="15" font-weight="700" text-anchor="middle">391</text></g>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.808;1" dur="2.60s" fill="freeze"/><circle cx="960.0" cy="140.0" r="5" fill="#ff4f00"/><text x="960.0" y="126.0" class="s i" font-size="15" font-weight="700" text-anchor="middle">423</text></g>
 </svg>
