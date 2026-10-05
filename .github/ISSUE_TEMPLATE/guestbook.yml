@@ -1,0 +1,11 @@
+name: Sign the guestbook
+description: Leave a one-line note on my profile
+title: "guestbook: "
+labels: ["guestbook"]
+body:
+  - type: markdown
+    attributes:
+      value: Write your note in the **title** after `guestbook:` (max ~60 characters). It will appear on my profile within a minute.
+  - type: textarea
+    attributes:
+      label: Anything else? (optional)
