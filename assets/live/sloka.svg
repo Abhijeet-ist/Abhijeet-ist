@@ -5,11 +5,11 @@
 <text x="58" y="44" class="m" font-size="12"><tspan class="g">20 / </tspan><tspan class="i">sloka of the day</tspan></text>
 <text x="1160" y="44" class="m g" font-size="12" text-anchor="end">a new verse every day</text>
 <line x1="40" y1="62" x2="1160" y2="62" stroke="#111110" stroke-opacity=".18"/>
-<text x="1160" y="330" class="s" font-size="230" font-weight="700" letter-spacing="-10" text-anchor="end" fill="#e3e0d9">2.50</text>
-<text x="40" y="104" class="m g" font-size="11">bhagavad gita 2.50</text>
-<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.182;1" dur="1.10s" fill="freeze"/><text x="40" y="170" class="d i" font-size="36">बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते ।</text></g>
-<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.400;1" dur="1.50s" fill="freeze"/><text x="40" y="224" class="d i" font-size="36">तस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम् ॥</text></g>
+<text x="1160" y="330" class="s" font-size="230" font-weight="700" letter-spacing="-10" text-anchor="end" fill="#e3e0d9">3.21</text>
+<text x="40" y="104" class="m g" font-size="11">bhagavad gita 3.21</text>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.182;1" dur="1.10s" fill="freeze"/><text x="40" y="170" class="d i" font-size="36">यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः ।</text></g>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.400;1" dur="1.50s" fill="freeze"/><text x="40" y="224" class="d i" font-size="36">स यत्प्रमाणं कुरुते लोकस्तदनुवर्तते ॥</text></g>
 <line x1="40" y1="258" x2="88" y2="258" stroke="#ff4f00" stroke-width="2"/>
-<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.550;1" dur="2.00s" fill="freeze"/><text x="40" y="300" class="s i" font-size="22">One rooted in wisdom moves beyond both good and bad deeds.</text><text x="40" y="332" class="s i" font-size="22">So devote yourself to yoga: yoga is skill in action.</text></g>
-<text x="40" y="382" class="m g" font-size="11">verse 3 of 10 · changes daily</text>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.550;1" dur="2.00s" fill="freeze"/><text x="40" y="300" class="s i" font-size="22">Whatever the best among us do, others follow;</text><text x="40" y="332" class="s i" font-size="22">the standard they set, the world takes up.</text></g>
+<text x="40" y="382" class="m g" font-size="11">verse 4 of 10 · changes daily</text>
 </svg>
