@@ -5,11 +5,11 @@
 <text x="58" y="44" class="m" font-size="12"><tspan class="g">20 / </tspan><tspan class="i">sloka of the day</tspan></text>
 <text x="1160" y="44" class="m g" font-size="12" text-anchor="end">a new verse every day</text>
 <line x1="40" y1="62" x2="1160" y2="62" stroke="#111110" stroke-opacity=".18"/>
-<text x="1160" y="330" class="s" font-size="230" font-weight="700" letter-spacing="-10" text-anchor="end" fill="#e3e0d9">2.47</text>
-<text x="40" y="104" class="m g" font-size="11">bhagavad gita 2.47</text>
-<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.182;1" dur="1.10s" fill="freeze"/><text x="40" y="170" class="d i" font-size="36">कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।</text></g>
-<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.400;1" dur="1.50s" fill="freeze"/><text x="40" y="224" class="d i" font-size="36">मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥</text></g>
+<text x="1160" y="330" class="s" font-size="230" font-weight="700" letter-spacing="-10" text-anchor="end" fill="#e3e0d9">2.48</text>
+<text x="40" y="104" class="m g" font-size="11">bhagavad gita 2.48</text>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.182;1" dur="1.10s" fill="freeze"/><text x="40" y="170" class="d i" font-size="36">योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय ।</text></g>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.400;1" dur="1.50s" fill="freeze"/><text x="40" y="224" class="d i" font-size="36">सिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते ॥</text></g>
 <line x1="40" y1="258" x2="88" y2="258" stroke="#ff4f00" stroke-width="2"/>
-<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.550;1" dur="2.00s" fill="freeze"/><text x="40" y="300" class="s i" font-size="22">You have a right to your work, never to its fruits.</text><text x="40" y="332" class="s i" font-size="22">Let results not be your motive, nor inaction your refuge.</text></g>
-<text x="40" y="382" class="m g" font-size="11">verse 1 of 10 · changes daily</text>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.550;1" dur="2.00s" fill="freeze"/><text x="40" y="300" class="s i" font-size="22">Act from steadiness, letting attachment go,</text><text x="40" y="332" class="s i" font-size="22">even in success and failure. Evenness of mind is yoga.</text></g>
+<text x="40" y="382" class="m g" font-size="11">verse 2 of 10 · changes daily</text>
 </svg>
